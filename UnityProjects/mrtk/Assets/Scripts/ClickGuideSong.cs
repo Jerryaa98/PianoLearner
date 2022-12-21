@@ -9,7 +9,7 @@ public class ClickGuideSong : MonoBehaviour
     public Material ColorMaterial;
     private Material originalMaterial;
     private int litKey = 0;
-    private int newLitKey = 0;
+    public string newLitKey = "";
 
     public string SongName;
 
@@ -30,19 +30,28 @@ public class ClickGuideSong : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(newLitKey == litKey)
+        if(!string.IsNullOrWhiteSpace(newLitKey))
         {
-            var currentKey = keysToPlay[litKey];
-            GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material = originalMaterial;
-
-            litKey++;
-            if(litKey >= keysToPlay.Count)
+            string[] split = newLitKey.Split(',');
+            if(split.Length == 2)
             {
-                return;
+                var currentKey = keysToPlay[litKey];
+                if(string.Equals(currentKey.Item1, split[0], StringComparison.InvariantCultureIgnoreCase) &&
+                    string.Equals(currentKey.Item2, split[1], StringComparison.InvariantCultureIgnoreCase))
+                {
+                    GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material = originalMaterial;
+
+                    litKey++;
+                    if (litKey >= keysToPlay.Count)
+                    {
+                        return;
+                    }
+                    currentKey = keysToPlay[litKey];
+                    originalMaterial = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material;
+                    GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material = ColorMaterial;
+                    newLitKey = "";
+                }
             }
-            currentKey = keysToPlay[litKey];
-            originalMaterial = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material;
-            GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material = ColorMaterial;
         }
     }
 }

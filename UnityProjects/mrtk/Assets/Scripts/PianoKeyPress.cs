@@ -6,7 +6,8 @@ public class PianoKeyPress : MRTKBaseInteractable
 {
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
-        Debug.Log("hello world?");
-        gameObject.GetComponent<Renderer>().material.color = Color.green;
+        string currentKey = $"{transform.parent.name},{gameObject.name}";
+        Debug.Log(currentKey);
+        transform.parent.parent.GetComponent<ClickGuideSong>().newLitKey = currentKey;
     }
 }
