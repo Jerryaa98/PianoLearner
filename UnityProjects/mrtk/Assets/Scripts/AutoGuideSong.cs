@@ -1,34 +1,42 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class guideSong : MonoBehaviour
+public class AutoGuideSong : MonoBehaviour
 {
 
-    List<(string, string, double, double)> keysToPlay = new List<(string, string, double, double)>
-    {
-        ("Medium", "C", 0.20, 0.50),
-        ("Medium", "C", 0.65, 1.00),
-        ("Medium", "E", 1.05, 1.40),
-        ("Low", "D", 1.45, 1.60)
-    };
+    List<(string, string, double, double)> keysToPlay;
 
     public Material ColorMaterial;
     private Material originalMaterial;
     private bool isLit = false;
     private (string, string, double, double) litKey;
 
-    private float startTime = 10;
+    private float startTime = 0;
+
+    public string SongName;
 
     // Start is called before the first frame update
     void Start()
     {
+        keysToPlay = new List<(string, string, double, double)>();
+
+        var asset = Resources.Load<TextAsset>($"Songs/{SongName}");
+        string[] lines = asset.text.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+        foreach(var line in lines)
+        {
+            string[] split = line.Trim().Split(',');
+            keysToPlay.Add((split[0], split[1], double.Parse(split[2]), double.Parse(split[3])));
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        PlaySong();
+        if(keysToPlay != null)
+        {
+            PlaySong();
+        }
     }
 
     void PlaySong()
