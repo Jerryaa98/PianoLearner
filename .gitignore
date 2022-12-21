@@ -75,3 +75,7 @@ MSBuild/
 scripts/test/out/
 [Uu]serSettings/
 UWP/
+
+UnityProjects\mrtk\Library\StateCache
+UnityProjects\mrtk\Library\BurstCache
+UnityProjects\mrtk\Library\PackageCache
