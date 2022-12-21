@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>5c8a043c9e0f42d47a01e5265dc5f8e2</guid>
+    <fileName>Assets/BuildAssets/BuildApp.cs</fileName>
+    <timeStamp>2022-12-19T14:38:18.3144877+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Build.BuildApp</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-12-09T20:51:26+02:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.AssetCollector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T20:51:26+02:00</timeStamp>
+    <typeFullName>
+      <string>AssetReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T20:51:26+02:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ClassReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-12-09T20:51:26+02:00</timeStamp>
+    <typeFullName>
+      <string>CollectionData</string>
+      <string>TypeDate</string>
+      <string>IReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2015-12-09T20:51:26+02:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T20:51:26+02:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e832b7c41de148541b29360d6f38b5d4</guid>
+    <fileName>Assets/Data Binding Example/Scripts/DataControllerTest.cs</fileName>
+    <timeStamp>2022-12-19T14:38:41.8087458+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.DataControllerTest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9cabb526a682fd3478b79bc5a2eeb5c4</guid>
+    <fileName>Assets/Data Binding Example/Scripts/DataSourceDictionaryTest.cs</fileName>
+    <timeStamp>2022-12-19T14:38:42.0575231+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.DataSourceDictionaryTest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>107520042d1da5f4391c7d701012a0af</guid>
+    <fileName>Assets/Data Binding Example/Scripts/DataSourceDynamicList.cs</fileName>
+    <timeStamp>2022-12-19T14:38:42.2011283+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.DataSourceDynamicList</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f761f9a27d184d346ae27c346872a12a</guid>
+    <fileName>Assets/Data Binding Example/Scripts/DataSourceImageUrlTest.cs</fileName>
+    <timeStamp>2022-12-19T14:38:42.2822302+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.DataSourceImageUrlTest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ce5c0f6f51be80242bae2df042c92d11</guid>
+    <fileName>Assets/Data Binding Example/Scripts/DataSourceJsonTest.cs</fileName>
+    <timeStamp>2022-12-19T14:38:44.7872388+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.DataSourceJsonTest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c47623d4c93ae2a4d8df059159aef54f</guid>
+    <fileName>Assets/Data Binding Example/Scripts/DataSourceJsonThemeTest.cs</fileName>
+    <timeStamp>2022-12-19T14:38:45.8072085+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.DataSourceJsonThemeTest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6a6f518abc45e04498de17974ae9f762</guid>
+    <fileName>Assets/Data Binding Example/Scripts/DataSourceReflectionListTest.cs</fileName>
+    <timeStamp>2022-12-19T14:38:45.9103574+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.DataSourceReflectionListTest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b89306b2b6785fb4c9aeae1b05e23a19</guid>
+    <fileName>Assets/Data Binding Example/Scripts/DataSourceReflectionTest.cs</fileName>
+    <timeStamp>2022-12-19T14:38:46.0206248+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.DataSourceReflectionTest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e65385ed0b29536409941840f633fb76</guid>
+    <fileName>Assets/Data Binding Example/Scripts/DataSourceTest.cs</fileName>
+    <timeStamp>2022-12-19T14:38:46.1046964+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.DataSourceTest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>67ce987f303877c4a9f4ee2187d86421</guid>
+    <fileName>Assets/Data Binding Example/Scripts/DataSourceThemeTest.cs</fileName>
+    <timeStamp>2022-12-19T14:38:46.4432791+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.DataSourceThemeTest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>90cf125cb06313d41bc947fb7e884a06</guid>
+    <fileName>Assets/Data Binding Example/Scripts/ThemeProfile.cs</fileName>
+    <timeStamp>2022-12-19T14:38:46.6123785+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.ThemeProfile</string>
+      <string>Microsoft.MixedReality.Toolkit.Data.ThemeProfile+SpriteSet</string>
+      <string>Microsoft.MixedReality.Toolkit.Data.ThemeProfile+ButtonParameters</string>
+      <string>Microsoft.MixedReality.Toolkit.Data.ThemeProfile+SlateParameters</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c3206c20976442142b76021bba5aced6</guid>
+    <fileName>Assets/Data Binding Example/Scripts/ThemeSetter.cs</fileName>
+    <timeStamp>2022-12-19T14:38:46.6788807+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.ThemeSetter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2cbba0574fc643440877d1cb9981d388</guid>
+    <fileName>Assets/Prefabs/Whiteboard/PenInteractor.cs</fileName>
+    <timeStamp>2022-12-19T14:38:54.3862965+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.PenInteractor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ded5521d45a5d8f4caae50f4db07df0b</guid>
+    <fileName>Assets/Prefabs/Whiteboard/Whiteboard.cs</fileName>
+    <timeStamp>2022-12-19T14:38:54.4599039+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.Whiteboard</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c791bf51f765445408651be3e54a53c4</guid>
+    <fileName>Assets/Scripts/BandPassFilterSelection.cs</fileName>
+    <timeStamp>2022-12-19T14:38:56.9143491+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.BandPassFilterSelection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6cc71cf53860e9a4b8cc5b2aed46bb76</guid>
+    <fileName>Assets/Scripts/ColorChanger.cs</fileName>
+    <timeStamp>2022-12-19T14:38:56.9739435+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.ColorChanger</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>58f4f479c366ee24f8af5312081fb8ef</guid>
+    <fileName>Assets/Scripts/DialogExample.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.0330795+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.DialogExample</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>204ebf4ffddb91b449a79de7c38ecb6c</guid>
+    <fileName>Assets/Scripts/GridSqueezer.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.0964531+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.GridSqueezer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>16541b4c876325c4c9f71d984e7c3adb</guid>
+    <fileName>Assets/Scripts/guideSong.cs</fileName>
+    <timeStamp>2022-12-21T12:56:44.0007105+02:00</timeStamp>
+    <typeFullName>
+      <string>guideSong</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>04c1b7fdcb0605945a98acc0ba322998</guid>
+    <fileName>Assets/Scripts/InspectorDrivenDialog.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.1588949+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.InspectorDrivenDialog</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6346906f655068741b42219fbe2aeec1</guid>
+    <fileName>Assets/Scripts/ObjectSpinner.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.2187524+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.ObjectSpinner</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>747b6947810c4904d95981c03a2e5e1b</guid>
+    <fileName>Assets/Scripts/SampleSceneHandMenu.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.2828932+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.SampleSceneHandMenu</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>66865df98758d1541b975b64c29fa0cf</guid>
+    <fileName>Assets/Scripts/ScrollRectCurve.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.3520506+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollRectCurve</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b713ab6189cb61a41920eb181d934f47</guid>
+    <fileName>Assets/Scripts/SystemKeyboardExample.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.4211444+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fe9323ca265114b4282b5d33b41f7adc</guid>
+    <fileName>Assets/Scripts/TetheredPlacement.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.4961609+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1d23f56855813584a8332e09f42b73fd</guid>
+    <fileName>Assets/Scripts/ToggleCollectionColorChange.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.5644731+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleCollectionColorChange</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7b3628ac500d9f34294b171a574ddad8</guid>
+    <fileName>Assets/Scripts/ToggleCollectionObjectActivate.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.6362249+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleCollectionObjectActivate</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7413971677c312a49a1146b41d453ba7</guid>
+    <fileName>Assets/Scripts/VirtualizedScrollRectListTester.cs</fileName>
+    <timeStamp>2022-12-19T14:38:57.7067106+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Examples.Demos.VirtualizedScrollRectListTester</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ffb513bebfbe6a742bac96b0613c77c9</guid>
+    <fileName>Assets/UX Theming Example/Scripts/BatteryInformationProfile.cs</fileName>
+    <timeStamp>2022-12-19T14:38:58.3035269+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.BatteryInformationProfile</string>
+      <string>Microsoft.MixedReality.Toolkit.Data.BatteryInformationProfile+BatteryLevelProfile</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>be0a706c184e30a4fb0de14a46e8570c</guid>
+    <fileName>Assets/UX Theming Example/Scripts/BatteryLevelDataSource.cs</fileName>
+    <timeStamp>2022-12-19T14:38:58.374241+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.Data.BatteryLevelDataSource</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fd272d88294d1fd45a02f04b941a0beb</guid>
+    <fileName>Assets/UX Theming Example/Themes/MusicInformationProfile.cs</fileName>
+    <timeStamp>2022-12-19T14:39:00.4348499+02:00</timeStamp>
+    <typeFullName>
+      <string>Microsoft.MixedReality.Toolkit.UX.MusicalNoteInformation</string>
+      <string>Microsoft.MixedReality.Toolkit.UX.MusicInformationProfile</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>
