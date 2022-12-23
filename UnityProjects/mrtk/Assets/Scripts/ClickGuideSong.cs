@@ -9,7 +9,6 @@ public class ClickGuideSong : MonoBehaviour
     public Material ColorMaterial;
     private Material originalMaterial;
     private int litKey = 0;
-    public string newLitKey = "";
 
     public string SongName;
 
@@ -25,33 +24,35 @@ public class ClickGuideSong : MonoBehaviour
             string[] split = line.Trim().Split(',');
             keysToPlay.Add((split[0], split[1], double.Parse(split[2]), double.Parse(split[3])));
         }
+        litKey = 0;
+        var currentKey = keysToPlay[litKey];
+        originalMaterial = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material;
+        GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material = ColorMaterial;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!string.IsNullOrWhiteSpace(newLitKey))
-        {
-            string[] split = newLitKey.Split(',');
-            if(split.Length == 2)
-            {
-                var currentKey = keysToPlay[litKey];
-                if(string.Equals(currentKey.Item1, split[0], StringComparison.InvariantCultureIgnoreCase) &&
-                    string.Equals(currentKey.Item2, split[1], StringComparison.InvariantCultureIgnoreCase))
-                {
-                    GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material = originalMaterial;
 
-                    litKey++;
-                    if (litKey >= keysToPlay.Count)
-                    {
-                        return;
-                    }
-                    currentKey = keysToPlay[litKey];
-                    originalMaterial = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material;
-                    GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material = ColorMaterial;
-                    newLitKey = "";
-                }
+    }
+
+    public void  ClickKey(GameObject obj)
+    {
+        var currentKey = keysToPlay[litKey];
+        // Debug.Log($"{currentKey.Item1} , {currentKey.Item2}");
+        if(string.Equals(currentKey.Item2, obj.name, StringComparison.InvariantCultureIgnoreCase) &&
+            string.Equals(currentKey.Item1, obj.transform.parent.name, StringComparison.InvariantCultureIgnoreCase))
+        {
+            GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material = originalMaterial;
+
+            litKey++;
+            if (litKey >= keysToPlay.Count)
+            {
+                return;
             }
+            currentKey = keysToPlay[litKey];
+            originalMaterial = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material;
+            GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKeyTransform/MovingKeyGeometry").GetComponent<MeshRenderer>().material = ColorMaterial;
         }
     }
 }

@@ -166,8 +166,8 @@ Library: lib_burst_generated
 --root-assembly=E:\mrtk\UnityProjects\mrtk\Temp\StagingArea\Data\Managed\glTFast.Export.dll
 --root-assembly=E:\mrtk\UnityProjects\mrtk\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.dll
 --root-assembly=E:\mrtk\UnityProjects\mrtk\Temp\StagingArea\Data\Managed\Microsoft.MixedReality.Toolkit.Data.dll
---root-assembly=E:\mrtk\UnityProjects\mrtk\Temp\StagingArea\Data\Managed\Microsoft.MixedReality.Toolkit.Speech.Windows.dll
 --root-assembly=E:\mrtk\UnityProjects\mrtk\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=E:\mrtk\UnityProjects\mrtk\Temp\StagingArea\Data\Managed\Microsoft.MixedReality.Toolkit.Speech.Windows.dll
 --root-assembly=E:\mrtk\UnityProjects\mrtk\Temp\StagingArea\Data\Managed\glTFastFakeSchema.dll
 --root-assembly=E:\mrtk\UnityProjects\mrtk\Temp\StagingArea\Data\Managed\Microsoft.MixedReality.Toolkit.Audio.dll
 --root-assembly=E:\mrtk\UnityProjects\mrtk\Temp\StagingArea\Data\Managed\Unity.XR.Management.dll
