@@ -1,12 +1,12 @@
-Medium ,E,5,5.75
-Medium ,E,6,6.75
-Medium ,E,7,9
-Medium ,E,9.25,10
-Medium ,E,10.25,11
-Medium ,E,11.25,13.25
-Medium ,E,13.5,15
-Medium ,G,15,16.5
-Medium ,C,16.5,19
+Medium,E,5,5.75
+Medium,E,6,6.75
+Medium,E,7,9
+Medium,E,9.25,10
+Medium,E,10.25,11
+Medium,E,11.25,13.25
+Medium,E,13.5,15
+Medium,G,15,16.5
+Medium,C,16.5,19
 Medium,D,19,19.75
 Medium,E,19.75,24
 Medium,F,24.1,24.85
@@ -27,12 +27,12 @@ Medium,G,42,45
 Medium,E,45,45.75
 Medium,E,46,46.75
 Medium,E,47,49
-Medium ,E,49.25,50
-Medium ,E,50.25,51
-Medium ,E,51.25,53.25
-Medium ,E,53.5,55
-Medium ,G,55,56.5
-Medium ,C,56.5,59
+Medium,E,49.25,50
+Medium,E,50.25,51
+Medium,E,51.25,53.25
+Medium,E,53.5,55
+Medium,G,55,56.5
+Medium,C,56.5,59
 Medium,D,59,59.75
 Medium,E,59.75,64
 Medium,F,64.1,64.85
