@@ -6,7 +6,9 @@ public class ClickGuideSong : MonoBehaviour
 {
     List<(string, string, double, double)> keysToPlay;
 
-    public Material ColorMaterial;
+    private static Color chosenColor = Color.blue;
+    private Color originalColor;
+    public Material chosenMaterial;
     private Material originalMaterial;
     private int litKey = 0;
 
@@ -15,7 +17,7 @@ public class ClickGuideSong : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartSong();
+        //StartSong();
     }
 
     // Update is called once per frame
@@ -26,14 +28,35 @@ public class ClickGuideSong : MonoBehaviour
 
     public void SetSongAndStart(string songName)
     {
+
         SongName = songName;
         StartSong();
+    }
+
+    private void SetColor((string, string, double, double) currentKey, bool reset)
+    {
+        if(reset)
+        {
+            GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material = originalMaterial;
+            //GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material.SetColor("_Color", originalColor);
+        } 
+        else
+        {
+            GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material = chosenMaterial;
+            //GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material.SetColor("_Color", chosenColor);
+        }
+    }
+    private void SaveColor((string, string, double, double) currentKey)
+    {
+        originalMaterial = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material;
+        //originalColor = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material.color;
     }
 
     public void StartSong()
     {
         keysToPlay = new List<(string, string, double, double)>();
 
+        Debug.Log(SongName);
         var asset = Resources.Load<TextAsset>($"Songs/{SongName}");
         string[] lines = asset.text.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
         foreach (var line in lines)
@@ -43,8 +66,8 @@ public class ClickGuideSong : MonoBehaviour
         }
         litKey = 0;
         var currentKey = keysToPlay[litKey];
-        originalMaterial = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material;
-        GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material = ColorMaterial;
+        SaveColor(currentKey);
+        SetColor(currentKey, false);
     }
 
     public void  ClickKey(GameObject obj)
@@ -57,7 +80,7 @@ public class ClickGuideSong : MonoBehaviour
         if(string.Equals(currentKey.Item2, obj.name, StringComparison.InvariantCultureIgnoreCase) &&
             string.Equals(currentKey.Item1, obj.transform.parent.name, StringComparison.InvariantCultureIgnoreCase))
         {
-            GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material = originalMaterial;
+            SetColor(currentKey, true);
 
             litKey++;
             if (litKey >= keysToPlay.Count)
@@ -65,8 +88,9 @@ public class ClickGuideSong : MonoBehaviour
                 return;
             }
             currentKey = keysToPlay[litKey];
-            originalMaterial = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material;
-            GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material = ColorMaterial;
+
+            SaveColor(currentKey);
+            SetColor(currentKey, false);
         }
     }
 }

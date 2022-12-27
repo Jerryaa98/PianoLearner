@@ -1,0 +1,15 @@
+Low,CSharp,2.5,3.5
+Low,EFlat,5.5,6.5
+Low,FSharp,10,11
+Low,GSharp,4,5
+Low,BFlat,7,8
+Medium,CSharp,2.5,3.5
+Medium,EFlat,5.5,6.5
+Medium,FSharp,10,11
+Medium,GSharp,4,5
+Medium,BFlat,7,8
+High,CSharp,2.5,3.5
+High,EFlat,5.5,6.5
+High,FSharp,10,11
+High,GSharp,4,5
+High,BFlat,7,8
