@@ -15,6 +15,23 @@ public class ClickGuideSong : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        StartSong();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    public void SetSongAndStart(string songName)
+    {
+        SongName = songName;
+        StartSong();
+    }
+
+    public void StartSong()
+    {
         keysToPlay = new List<(string, string, double, double)>();
 
         var asset = Resources.Load<TextAsset>($"Songs/{SongName}");
@@ -30,12 +47,6 @@ public class ClickGuideSong : MonoBehaviour
         GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").GetComponent<MeshRenderer>().material = ColorMaterial;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void  ClickKey(GameObject obj)
     {
         if(litKey >= keysToPlay.Count)
@@ -43,7 +54,6 @@ public class ClickGuideSong : MonoBehaviour
             return;
         }
         var currentKey = keysToPlay[litKey];
-        // Debug.Log($"{currentKey.Item1} , {currentKey.Item2}");
         if(string.Equals(currentKey.Item2, obj.name, StringComparison.InvariantCultureIgnoreCase) &&
             string.Equals(currentKey.Item1, obj.transform.parent.name, StringComparison.InvariantCultureIgnoreCase))
         {
