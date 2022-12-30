@@ -79,6 +79,6 @@ UWP/
 **\Library\StateCache\
 **\Library\BurstCache\
 **\Library\PackageCache\
-Library\ArtifactDB\
+Library/ArtifactDB
 Logs/**.log
 Temp/**
