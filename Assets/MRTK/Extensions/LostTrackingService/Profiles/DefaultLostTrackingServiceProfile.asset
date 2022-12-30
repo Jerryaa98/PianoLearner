@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: DefaultLostTrackingServiceProfile
   m_EditorClassIdentifier: 
   isCustomProfile: 0
-  trackingLostVisualPrefab: {fileID: 3020011822869161386, guid: ac9d662b5ab57dc489e1ea86933f2faa,
-    type: 3}
+  trackingLostVisualPrefab: {fileID: 3020011822869161386, guid: ac9d662b5ab57dc489e1ea86933f2faa, type: 3}
   trackingLostVisualLayer: 31
   trackingLostCullingMask:
     serializedVersion: 2

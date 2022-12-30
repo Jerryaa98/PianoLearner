@@ -32,6 +32,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.5555344, y: -0.64428824, z: -0.83108586}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -55,10 +56,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -83,6 +86,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &3931749881970468425
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -112,7 +116,6 @@ MonoBehaviour:
   pop: {fileID: 8300000, guid: 9a752d3328516a44384df0f171c8a5ca, type: 3}
   bounce: {fileID: 8300000, guid: 229f46af248b4c74facf863a061f856b, type: 3}
   loadball: {fileID: 8300000, guid: e73b66c29312de047ba040fb2231cdda, type: 3}
-  audio: {fileID: 705817834}
   visibleMat: {fileID: 2100000, guid: 393d64b573215e544b8b5cc315e10d68, type: 2}
   hiddenMat: {fileID: 2100000, guid: 9827083418370bd4383a7507ca039547, type: 2}
 --- !u!54 &413594911

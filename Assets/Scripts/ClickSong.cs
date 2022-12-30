@@ -19,8 +19,18 @@ public class ClickSong : MonoBehaviour
         StartSong();
     }
 
+    public void SetSongAndStart(string songName)
+    {
+        SongName = songName;
+        StartSong();
+    }
+
     public void StartSong()
     {
+        if (string.IsNullOrWhiteSpace(SongName))
+        {
+            return;
+        }
         keysToPlay = new List<(string, string, float, float)>();
         if (objects.Any())
         {
@@ -31,6 +41,7 @@ public class ClickSong : MonoBehaviour
         }
         objects = new List<PianoCube>();
 
+        Debug.Log(SongName);
         var asset = Resources.Load<TextAsset>($"Songs/{SongName}");
         string[] lines = asset.text.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
         foreach (var line in lines)

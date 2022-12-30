@@ -20,5 +20,4 @@ MonoBehaviour:
     componentName: HandPhysicsService
     priority: 10
     runtimePlatform: -1
-    configurationProfile: {fileID: 11400000, guid: 236baf35803f73342b69c842fe4afb1c,
-      type: 2}
+    configurationProfile: {fileID: 11400000, guid: 236baf35803f73342b69c842fe4afb1c, type: 2}

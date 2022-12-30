@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 554886320621658114}
   m_Father: {fileID: 8133308069293065735}
@@ -49,6 +50,7 @@ MonoBehaviour:
   _updateAfter: {fileID: 0}
   _iModifyDataFromSourceMono: {fileID: 0}
   _applyModifier: 0
+  _aspects: []
 --- !u!114 &1587212515208925075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +90,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3052325886279516139}
   - {fileID: 4795019829610151676}
@@ -121,6 +124,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4795019829610151676}
   m_RootOrder: 0
@@ -139,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactors: []
   _interactorComparer: {fileID: 0}
+  _data: {fileID: 0}
   MaxIterationsPerFrame: 3
 --- !u!1 &7406123341210062264
 GameObject:
@@ -167,6 +172,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3052325886279516139}
   m_RootOrder: 0
@@ -185,6 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactors: []
   _interactorComparer: {fileID: 0}
+  _data: {fileID: 0}
   MaxIterationsPerFrame: 3
 --- !u!1 &8561447745529782927
 GameObject:
@@ -214,6 +221,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1036694587060465390}
   m_Father: {fileID: 8133308069293065735}
@@ -235,6 +243,7 @@ MonoBehaviour:
   _updateAfter: {fileID: 0}
   _iModifyDataFromSourceMono: {fileID: 0}
   _applyModifier: 0
+  _aspects: []
 --- !u!114 &6988636279052197682
 MonoBehaviour:
   m_ObjectHideFlags: 0
