@@ -210,7 +210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 691032269548902894, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 691032269548902894, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -246,7 +246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 831178469906366072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 831178469906366072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -278,7 +278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1118178363982637711, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1118178363982637711, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -310,7 +310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1255157128461179420, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1255157128461179420, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -346,7 +346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1514572419050233065, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1514572419050233065, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -378,7 +378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1658300939063113717, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1658300939063113717, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -418,7 +418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321952539963893490, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2321952539963893490, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -450,7 +450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648359102384294042, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3648359102384294042, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -486,7 +486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3936684278984776133, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3936684278984776133, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -518,7 +518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4218801262050365023, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4218801262050365023, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -554,7 +554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4341198041414777580, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4341198041414777580, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -590,7 +590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4511014280320252454, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4511014280320252454, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -630,7 +630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5238473123633528716, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5238473123633528716, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -662,7 +662,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5538630224083089785, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5538630224083089785, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -722,7 +722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682006317853348453, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5682006317853348453, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -767,11 +767,11 @@ PrefabInstance:
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1727236851}
+      objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1727236851}
+      objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
@@ -794,7 +794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -854,7 +854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5931536637243268072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5931536637243268072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -890,7 +890,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6223249020439449375, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6223249020439449375, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -926,7 +926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7157851665462881231, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7157851665462881231, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -958,7 +958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7342826520714878844, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7342826520714878844, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -990,7 +990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7440978859732950966, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7440978859732950966, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1026,7 +1026,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7744060544969927946, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7744060544969927946, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1058,7 +1058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8032192139077205077, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8032192139077205077, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1090,7 +1090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8782237832740340578, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8782237832740340578, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1107,7 +1107,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1421901108}
+    m_TransformParent: {fileID: 1428262891}
     m_Modifications:
     - target: {fileID: 626846009433497858, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.size
@@ -1128,7 +1128,7 @@ PrefabInstance:
     - target: {fileID: 626846009433497858, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1727236851}
+      objectReference: {fileID: 0}
     - target: {fileID: 626846009433497858, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -1147,7 +1147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 626846009433497858, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 626846009433497858, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -1247,7 +1247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2261995565577428465, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2261995565577428465, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -1283,11 +1283,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6497819335467242799, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.012
+      value: 0.066
       objectReference: {fileID: 0}
     - target: {fileID: 6497819335467242799, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.56132
+      value: 0.915
       objectReference: {fileID: 0}
     - target: {fileID: 6497819335467242799, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1343,7 +1343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8775494785568547707, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8775494785568547707, guid: 9a7c24f281a2c3d45a9b8befe608bf77, type: 3}
       propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
@@ -1442,7 +1442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: b7c203a1c65b5f9429d2e81d550af58e, type: 2}
+  activeProfile: {fileID: 11400000, guid: 31a611a779d3499e8e35f1a2018ca841, type: 2}
 --- !u!4 &735894442
 Transform:
   m_ObjectHideFlags: 0
@@ -1543,7 +1543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 691032269548902894, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 691032269548902894, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1579,7 +1579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 831178469906366072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 831178469906366072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1611,7 +1611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1118178363982637711, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1118178363982637711, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1643,7 +1643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1255157128461179420, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1255157128461179420, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1679,7 +1679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1514572419050233065, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1514572419050233065, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1711,7 +1711,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1658300939063113717, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1658300939063113717, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1759,7 +1759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321952539963893490, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2321952539963893490, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1795,7 +1795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648359102384294042, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3648359102384294042, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1831,7 +1831,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3936684278984776133, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3936684278984776133, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1867,7 +1867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4218801262050365023, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4218801262050365023, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1903,7 +1903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4341198041414777580, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4341198041414777580, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1939,7 +1939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4511014280320252454, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4511014280320252454, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1983,7 +1983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5238473123633528716, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5238473123633528716, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2015,7 +2015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5538630224083089785, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5538630224083089785, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2075,7 +2075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682006317853348453, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5682006317853348453, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2120,11 +2120,11 @@ PrefabInstance:
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1727236851}
+      objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1727236851}
+      objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
@@ -2147,7 +2147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2207,7 +2207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5931536637243268072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5931536637243268072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2243,7 +2243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6223249020439449375, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6223249020439449375, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2283,7 +2283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7157851665462881231, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7157851665462881231, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2315,7 +2315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7342826520714878844, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7342826520714878844, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2347,7 +2347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7440978859732950966, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7440978859732950966, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2387,7 +2387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7744060544969927946, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7744060544969927946, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2423,7 +2423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8032192139077205077, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8032192139077205077, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2463,7 +2463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8782237832740340578, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8782237832740340578, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2630,7 +2630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 691032269548902894, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 691032269548902894, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2666,7 +2666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 831178469906366072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 831178469906366072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2698,7 +2698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1118178363982637711, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1118178363982637711, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2730,7 +2730,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1255157128461179420, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1255157128461179420, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2766,7 +2766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1514572419050233065, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1514572419050233065, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2798,7 +2798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1658300939063113717, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1658300939063113717, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2846,7 +2846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321952539963893490, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2321952539963893490, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2882,7 +2882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648359102384294042, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3648359102384294042, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2918,7 +2918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3936684278984776133, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3936684278984776133, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2954,7 +2954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4218801262050365023, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4218801262050365023, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -2990,7 +2990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4341198041414777580, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4341198041414777580, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3026,7 +3026,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4511014280320252454, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4511014280320252454, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3070,7 +3070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5238473123633528716, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5238473123633528716, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3102,7 +3102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5538630224083089785, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5538630224083089785, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3162,7 +3162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682006317853348453, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5682006317853348453, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3207,11 +3207,11 @@ PrefabInstance:
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1727236851}
+      objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1727236851}
+      objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
@@ -3234,7 +3234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -3294,7 +3294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5931536637243268072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5931536637243268072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3330,7 +3330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6223249020439449375, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6223249020439449375, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3370,7 +3370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7157851665462881231, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7157851665462881231, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3402,7 +3402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7342826520714878844, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7342826520714878844, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3434,7 +3434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7440978859732950966, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7440978859732950966, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3474,7 +3474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7744060544969927946, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7744060544969927946, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3510,7 +3510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8032192139077205077, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8032192139077205077, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3550,7 +3550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8782237832740340578, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8782237832740340578, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -3642,7 +3642,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1421901108}
+    m_TransformParent: {fileID: 1428262891}
     m_Modifications:
     - target: {fileID: 1439781781207532, guid: 29a6f5316e0868e47adff5eee8945193, type: 3}
       propertyPath: m_Name
@@ -3654,11 +3654,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4558003219915732, guid: 29a6f5316e0868e47adff5eee8945193, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0876756
+      value: 0.087675594
       objectReference: {fileID: 0}
     - target: {fileID: 4558003219915732, guid: 29a6f5316e0868e47adff5eee8945193, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0876756
+      value: 0.087675594
       objectReference: {fileID: 0}
     - target: {fileID: 4558003219915732, guid: 29a6f5316e0868e47adff5eee8945193, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3726,7 +3726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114658294074506726, guid: 29a6f5316e0868e47adff5eee8945193, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: ClickSong, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114658294074506726, guid: 29a6f5316e0868e47adff5eee8945193, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -3787,11 +3787,43 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1428262891}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1428262890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1428262891}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1428262891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428262890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
   - {fileID: 1727236849}
   - {fileID: 180137964}
   - {fileID: 284395778}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1421901108}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1434179304 stripped
 GameObject:
@@ -3812,8 +3844,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1727236849}
-  - component: {fileID: 1727236851}
   - component: {fileID: 1727236850}
+  - component: {fileID: 1727236851}
   m_Layer: 0
   m_Name: FullPiano
   m_TagString: Untagged
@@ -3829,14 +3861,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1727236848}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.038, y: -0.228, z: 0.1556}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1208106251}
   - {fileID: 765538895}
   - {fileID: 951962227}
-  m_Father: {fileID: 1421901108}
+  m_Father: {fileID: 1428262891}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1727236850
@@ -3862,11 +3894,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1727236848}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9845d3f17e7e8bf42b82afcc079dc2df, type: 3}
+  m_Script: {fileID: 11500000, guid: e46061e8e5cf50e44bd4285977b7be96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chosenMaterial: {fileID: 2100000, guid: 7159abf2cff69ed45a1611036ff502c6, type: 2}
-  SongName: CmajorScale
+  ColorMaterial: {fileID: 2100000, guid: 3c55769e893c4f4c8c51b7fa69bee2b9, type: 2}
+  SongName: AllKeys
 --- !u!1 &1773997769 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7985347749080052962, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
@@ -3983,8 +4015,8 @@ Camera:
   m_GameObject: {fileID: 1928282770}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

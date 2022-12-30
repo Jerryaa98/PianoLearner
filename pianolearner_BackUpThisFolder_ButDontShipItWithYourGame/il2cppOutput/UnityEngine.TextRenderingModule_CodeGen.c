@@ -86,57 +86,59 @@ extern void TextMesh_get_text_mB3E900AED17390DE50DFC984428BC29EB1CA60A2 (void);
 extern void TextMesh_set_text_mDF79D39638ED82797D0B0B3BB9E6B10712F8EA9E (void);
 // 0x00000025 UnityEngine.Font UnityEngine.TextMesh::get_font()
 extern void TextMesh_get_font_m94D3A4C8E4DB171B74E4FF00AC7EC27F3D495664 (void);
-// 0x00000026 System.Int32 UnityEngine.TextMesh::get_fontSize()
+// 0x00000026 System.Void UnityEngine.TextMesh::set_font(UnityEngine.Font)
+extern void TextMesh_set_font_m7E407CAEDBB382B95B70069D8FAB8A9E74EAAA74 (void);
+// 0x00000027 System.Int32 UnityEngine.TextMesh::get_fontSize()
 extern void TextMesh_get_fontSize_m9D9DCB98FC5E439868F25A8CDA2A4F5C2D85985C (void);
-// 0x00000027 System.Void UnityEngine.TextMesh::set_fontSize(System.Int32)
+// 0x00000028 System.Void UnityEngine.TextMesh::set_fontSize(System.Int32)
 extern void TextMesh_set_fontSize_mAB9F7FFC0E4DB759B786F6A9357B18C86015498B (void);
-// 0x00000028 UnityEngine.FontStyle UnityEngine.TextMesh::get_fontStyle()
+// 0x00000029 UnityEngine.FontStyle UnityEngine.TextMesh::get_fontStyle()
 extern void TextMesh_get_fontStyle_mB5186C6CCE5303FF459E6C95D7EB35C48A22AD73 (void);
-// 0x00000029 System.Void UnityEngine.TextMesh::set_anchor(UnityEngine.TextAnchor)
+// 0x0000002A System.Void UnityEngine.TextMesh::set_anchor(UnityEngine.TextAnchor)
 extern void TextMesh_set_anchor_m3FCB7C4B1FF66CE189B56076C0306AFE984FCD32 (void);
-// 0x0000002A System.Single UnityEngine.TextMesh::get_characterSize()
+// 0x0000002B System.Single UnityEngine.TextMesh::get_characterSize()
 extern void TextMesh_get_characterSize_mA9495F227772CFEBB2EB64B65166E682DB5E8147 (void);
-// 0x0000002B System.Void UnityEngine.TextMesh::set_richText(System.Boolean)
+// 0x0000002C System.Void UnityEngine.TextMesh::set_richText(System.Boolean)
 extern void TextMesh_set_richText_m26D52770D73A6B142A153B913F2D005E895F2EE2 (void);
-// 0x0000002C UnityEngine.Color UnityEngine.TextMesh::get_color()
+// 0x0000002D UnityEngine.Color UnityEngine.TextMesh::get_color()
 extern void TextMesh_get_color_m128E5D16AA72D5284C70957253DEAEE4FBEB023E (void);
-// 0x0000002D System.Void UnityEngine.TextMesh::set_color(UnityEngine.Color)
+// 0x0000002E System.Void UnityEngine.TextMesh::set_color(UnityEngine.Color)
 extern void TextMesh_set_color_mF08F30C3CD797C16289225B567724B9F07DC641E (void);
-// 0x0000002E System.Void UnityEngine.TextMesh::get_color_Injected(UnityEngine.Color&)
+// 0x0000002F System.Void UnityEngine.TextMesh::get_color_Injected(UnityEngine.Color&)
 extern void TextMesh_get_color_Injected_m3E6F8CA2677A2304BCF58A8FCE4468B29D97F769 (void);
-// 0x0000002F System.Void UnityEngine.TextMesh::set_color_Injected(UnityEngine.Color&)
+// 0x00000030 System.Void UnityEngine.TextMesh::set_color_Injected(UnityEngine.Color&)
 extern void TextMesh_set_color_Injected_mC7C51FAE003F1B2FB510F50DC1C4AFBFE740B4E4 (void);
-// 0x00000030 System.Int32 UnityEngine.CharacterInfo::get_advance()
+// 0x00000031 System.Int32 UnityEngine.CharacterInfo::get_advance()
 extern void CharacterInfo_get_advance_m0AAC68ABA1BD5B184B53E01F270BA4FD1D2C2B9A (void);
-// 0x00000031 System.Void UnityEngine.UIVertex::.cctor()
+// 0x00000032 System.Void UnityEngine.UIVertex::.cctor()
 extern void UIVertex__cctor_mF98CC8F21D6CD8703B47E168E976BBE15E0F6C62 (void);
-// 0x00000032 System.Void UnityEngine.Font::add_textureRebuilt(System.Action`1<UnityEngine.Font>)
+// 0x00000033 System.Void UnityEngine.Font::add_textureRebuilt(System.Action`1<UnityEngine.Font>)
 extern void Font_add_textureRebuilt_m0BBB44846C17A580B078599DA5AE231DA9D6DAD7 (void);
-// 0x00000033 System.Void UnityEngine.Font::remove_textureRebuilt(System.Action`1<UnityEngine.Font>)
+// 0x00000034 System.Void UnityEngine.Font::remove_textureRebuilt(System.Action`1<UnityEngine.Font>)
 extern void Font_remove_textureRebuilt_mB7EF9EEE803E9C70AF4217190B49C83FE287904A (void);
-// 0x00000034 UnityEngine.Material UnityEngine.Font::get_material()
+// 0x00000035 UnityEngine.Material UnityEngine.Font::get_material()
 extern void Font_get_material_m61ABDEC14C6D659DDC5A4F080023699116C17364 (void);
-// 0x00000035 System.Boolean UnityEngine.Font::get_dynamic()
+// 0x00000036 System.Boolean UnityEngine.Font::get_dynamic()
 extern void Font_get_dynamic_m5231258BFEAABA3B3EA6AB5D8C2FDCBC2AD1371C (void);
-// 0x00000036 System.Int32 UnityEngine.Font::get_fontSize()
+// 0x00000037 System.Int32 UnityEngine.Font::get_fontSize()
 extern void Font_get_fontSize_m02C2F5C7A7C89A878F04C2087248DD46BBF9E26B (void);
-// 0x00000037 System.Void UnityEngine.Font::.ctor()
+// 0x00000038 System.Void UnityEngine.Font::.ctor()
 extern void Font__ctor_m9106C7F312AE77F6721001A5A3143951201AC841 (void);
-// 0x00000038 System.Void UnityEngine.Font::InvokeTextureRebuilt_Internal(UnityEngine.Font)
+// 0x00000039 System.Void UnityEngine.Font::InvokeTextureRebuilt_Internal(UnityEngine.Font)
 extern void Font_InvokeTextureRebuilt_Internal_m874D1025267C908E5FCD437B41929E4DE248B01B (void);
-// 0x00000039 System.Boolean UnityEngine.Font::HasCharacter(System.Char)
+// 0x0000003A System.Boolean UnityEngine.Font::HasCharacter(System.Char)
 extern void Font_HasCharacter_m71A84FE036055880E1543D79A38FEFA495AD200B (void);
-// 0x0000003A System.Boolean UnityEngine.Font::HasCharacter(System.Int32)
+// 0x0000003B System.Boolean UnityEngine.Font::HasCharacter(System.Int32)
 extern void Font_HasCharacter_mAB838A26F002CB5E4B4DB297F7D6836A28625B18 (void);
-// 0x0000003B System.Void UnityEngine.Font::Internal_CreateFont(UnityEngine.Font,System.String)
+// 0x0000003C System.Void UnityEngine.Font::Internal_CreateFont(UnityEngine.Font,System.String)
 extern void Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1 (void);
-// 0x0000003C System.Boolean UnityEngine.Font::GetCharacterInfo(System.Char,UnityEngine.CharacterInfo&,System.Int32,UnityEngine.FontStyle)
+// 0x0000003D System.Boolean UnityEngine.Font::GetCharacterInfo(System.Char,UnityEngine.CharacterInfo&,System.Int32,UnityEngine.FontStyle)
 extern void Font_GetCharacterInfo_m66CF18A6ECA8A877CA793DCC733DCF9659F398E8 (void);
-// 0x0000003D System.Void UnityEngine.Font/FontTextureRebuildCallback::.ctor(System.Object,System.IntPtr)
+// 0x0000003E System.Void UnityEngine.Font/FontTextureRebuildCallback::.ctor(System.Object,System.IntPtr)
 extern void FontTextureRebuildCallback__ctor_m1AF27FC83F3136E493F47015F99CE7A4E6BCA0BC (void);
-// 0x0000003E System.Void UnityEngine.Font/FontTextureRebuildCallback::Invoke()
+// 0x0000003F System.Void UnityEngine.Font/FontTextureRebuildCallback::Invoke()
 extern void FontTextureRebuildCallback_Invoke_m8B52C3F4823ADBB80062209E6BA2B33202AE958D (void);
-static Il2CppMethodPointer s_methodPointers[62] = 
+static Il2CppMethodPointer s_methodPointers[63] = 
 {
 	TextGenerationSettings_CompareColors_m29E454405FB3871CA77CC7F94DAB1B4320BD5E53,
 	TextGenerationSettings_CompareVector2_mF3EE374922B2ECE13BA7B01B26199494A30C2E2E,
@@ -175,6 +177,7 @@ static Il2CppMethodPointer s_methodPointers[62] =
 	TextMesh_get_text_mB3E900AED17390DE50DFC984428BC29EB1CA60A2,
 	TextMesh_set_text_mDF79D39638ED82797D0B0B3BB9E6B10712F8EA9E,
 	TextMesh_get_font_m94D3A4C8E4DB171B74E4FF00AC7EC27F3D495664,
+	TextMesh_set_font_m7E407CAEDBB382B95B70069D8FAB8A9E74EAAA74,
 	TextMesh_get_fontSize_m9D9DCB98FC5E439868F25A8CDA2A4F5C2D85985C,
 	TextMesh_set_fontSize_mAB9F7FFC0E4DB759B786F6A9357B18C86015498B,
 	TextMesh_get_fontStyle_mB5186C6CCE5303FF459E6C95D7EB35C48A22AD73,
@@ -210,78 +213,79 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] =
 	{ 0x06000001, TextGenerationSettings_CompareColors_m29E454405FB3871CA77CC7F94DAB1B4320BD5E53_AdjustorThunk },
 	{ 0x06000002, TextGenerationSettings_CompareVector2_mF3EE374922B2ECE13BA7B01B26199494A30C2E2E_AdjustorThunk },
 	{ 0x06000003, TextGenerationSettings_Equals_m04DE9655555622E3A4EECC2EAB3BC36B38E20840_AdjustorThunk },
-	{ 0x06000030, CharacterInfo_get_advance_m0AAC68ABA1BD5B184B53E01F270BA4FD1D2C2B9A_AdjustorThunk },
+	{ 0x06000031, CharacterInfo_get_advance_m0AAC68ABA1BD5B184B53E01F270BA4FD1D2C2B9A_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[62] = 
+static const int32_t s_InvokerIndices[63] = 
 {
-	1967,
-	2125,
-	4097,
-	6863,
-	5498,
-	6863,
-	6863,
-	6690,
-	5077,
-	6863,
-	5544,
-	5544,
-	5544,
-	2568,
-	2568,
+	1968,
+	2126,
+	4099,
+	6869,
+	5502,
+	6869,
+	6869,
+	6696,
+	5081,
+	6869,
+	5548,
+	5548,
+	5548,
+	2569,
+	2569,
 	1412,
-	2043,
-	2311,
-	2311,
-	6736,
-	6736,
-	6736,
-	6764,
-	6690,
-	6690,
-	10059,
-	9923,
+	2044,
+	2312,
+	2312,
+	6742,
+	6742,
+	6742,
+	6770,
+	6696,
+	6696,
+	10068,
+	9932,
 	1,
 	2,
-	5544,
-	5544,
-	5544,
-	5408,
+	5548,
+	5548,
+	5548,
+	5412,
 	0,
-	6736,
-	5544,
-	6736,
-	6690,
-	5498,
-	6690,
-	5498,
-	6790,
-	5421,
-	6622,
-	5424,
-	5408,
-	5408,
-	6690,
-	10104,
-	9926,
-	9926,
-	6736,
-	6620,
-	6690,
-	6863,
-	9926,
-	4118,
-	3971,
-	9360,
+	6742,
+	5548,
+	6742,
+	5548,
+	6696,
+	5502,
+	6696,
+	5502,
+	6796,
+	5425,
+	6628,
+	5428,
+	5412,
+	5412,
+	6696,
+	10113,
+	9935,
+	9935,
+	6742,
+	6626,
+	6696,
+	6869,
+	9935,
+	4120,
+	3973,
+	9369,
 	714,
-	3198,
-	6863,
+	3200,
+	6869,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule = 
 {
 	"UnityEngine.TextRenderingModule.dll",
-	62,
+	63,
 	s_methodPointers,
 	4,
 	s_adjustorThunks,

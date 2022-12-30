@@ -5,12 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/PianoLearner.unity
     guid: e77b480290d294b43bc4dbdbabcddcb3
-  - enabled: 1
-    path: Assets/MRTK/Examples/Demos/Input/Scenes/HandJointChaserExample.unity
-    guid: 578633004acf0bb44bb6c246084b43b7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d9c9a9065f727e0488d7fbee4d1fbc5c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 56d465ce276a6e846bee7be04de34ab9, type: 2}
