@@ -41,7 +41,6 @@ public class ClickSong : MonoBehaviour
         }
         objects = new List<PianoCube>();
 
-        Debug.Log(SongName);
         var asset = Resources.Load<TextAsset>($"Songs/{SongName}");
         string[] lines = asset.text.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
         foreach (var line in lines)
@@ -146,7 +145,6 @@ public class ClickSong : MonoBehaviour
             obj.Cube.transform.localPosition = Vector3.Lerp(obj.Position, obj.Position + new Vector3(0, 0, journeyLength), fractionOfJourney);
             if (obj == objects.First())
             {
-                Debug.Log(fractionOfJourney);
                 if (fractionOfJourney > 1)
                 {
                     obj.Cube.GetComponent<MeshRenderer>().material.color = Color.yellow;
