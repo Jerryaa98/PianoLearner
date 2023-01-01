@@ -2,7 +2,6 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
-using Microsoft.MixedReality.Toolkit.UI;
 
 public class ClickSong : MonoBehaviour
 {
@@ -11,12 +10,14 @@ public class ClickSong : MonoBehaviour
 
     List<SongNote> keysToPlay;
     List<PianoCube> objects = new List<PianoCube>();
+    List<ClickedNote> ClickedNotes;
     int litKey = 0;
     float startTime;
     float speed = 0.01f;
     float width = 0.02f;
     float depth = 0.02f;
     float distance = 0.25f;
+    float minTime;
 
     void Start()
     {
@@ -59,8 +60,9 @@ public class ClickSong : MonoBehaviour
             });
         }
         litKey = 0;
-        var currentKey = keysToPlay.Where(k => k.StartTime == 0);
-        SetNewMaterial(currentKey);
+        keysToPlay.Sort((k1, k2) => k1.StartTime.CompareTo(k2.StartTime));
+        minTime = keysToPlay.Min(k => k.StartTime);
+        SetNewMaterial(keysToPlay.Where(k => k.StartTime == minTime));
         InstantiateKeys();
         startTime = Time.time;
     }
@@ -75,29 +77,29 @@ public class ClickSong : MonoBehaviour
         var foundNote = ClickedNotes.FirstOrDefault(n => string.Equals(n.Note.Note, obj.name, StringComparison.InvariantCultureIgnoreCase) &&
             string.Equals(n.Note.Octave, obj.transform.parent.name, StringComparison.InvariantCultureIgnoreCase)
             && !n.Clicked);
-        if(foundNote != null)
+        if (foundNote != null)
         {
-            Debug.Log(foundNote);
             foundNote.Clicked = true;
         }
-        if(ClickedNotes.All(n => n.Clicked))
+        if (ClickedNotes.All(n => n.Clicked))
         {
             SetOriginalMaterial(ClickedNotes.Select(n => n.Note));
             JumpKey();
 
             litKey++;
-            if (litKey >= keysToPlay.Count)
+            if (litKey >= keysToPlay.Count - 1)
             {
                 return;
             }
 
-            //SetNewMaterial( /* todo: find next keys to play*/);
+            minTime = keysToPlay.Where(k => k.StartTime > minTime).Min(k => k.StartTime);
+            SetNewMaterial(keysToPlay.Where(k => k.StartTime == minTime));
         }
     }
 
     void JumpKey()
     {
-        foreach(var n in ClickedNotes)
+        foreach (var n in ClickedNotes)
         {
             var matchingObjectIndex = objects.FindIndex(o => o.Note == n.Note);
             Destroy(objects[matchingObjectIndex].Cube);
@@ -168,32 +170,26 @@ public class ClickSong : MonoBehaviour
 
     void SetOriginalMaterial(IEnumerable<SongNote> keys)
     {
-        foreach(var key in keys)
+        foreach (var key in keys)
         {
-            Debug.Log("setting original material");
             GetPianoKeyGO(key).GetComponent<MeshRenderer>().material = key.OriginaMaterial;
         }
     }
 
     void SetNewMaterial(IEnumerable<SongNote> keys)
     {
-        foreach(var key in keys)
+        foreach (var key in keys)
         {
             key.OriginaMaterial = GetPianoKeyGO(key).GetComponent<MeshRenderer>().material;
             GetPianoKeyGO(key).GetComponent<MeshRenderer>().material = ColorMaterial;
         }
 
-        if (keys.Count() > 1)
+        ClickedNotes = keys.Select(k => new ClickedNote
         {
-            ClickedNotes = keys.Select(k => new ClickedNote
-            {
-                Note = k,
-                Clicked = false
-            }).ToList();
-        }
+            Note = k,
+            Clicked = false
+        }).ToList();
     }
-
-    List<ClickedNote> ClickedNotes;
 
     class ClickedNote
     {
