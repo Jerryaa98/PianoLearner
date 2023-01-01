@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Microsoft.MixedReality.Toolkit.XRSDK.OpenXR</RootNamespace>
-    <ProjectGuid>{9B6BE668-FDBC-A23B-E9CD-29CFAFE36A4E}</ProjectGuid>
+    <ProjectGuid>{0193D2CC-3B8F-8FD0-45FC-09AFCF934BC2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.OpenXR</AssemblyName>
@@ -707,19 +707,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{6CAC95EE-9648-94A9-A6B4-D5CEA7E69310}</Project>
+      <Project>{CC61D603-46D8-3EC9-AA0C-DBD6E68F4854}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E53D067B-DBCD-A986-5F01-CC694F5A5884}</Project>
+      <Project>{2EFA4089-AB02-E928-543B-0221CFED1765}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.csproj">
-      <Project>{037A7814-17F2-7C52-B930-6DFACCE63569}</Project>
+      <Project>{24178F3D-E3B3-C7EC-AFC0-BB41259BC282}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Gltf</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj">
-      <Project>{1B775F97-AD1E-F2B4-C7BE-C2CB2FEE8207}</Project>
+      <Project>{E494E349-492C-E3E5-C59B-F0C0259BB0F3}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK</Name>
     </ProjectReference>
   </ItemGroup>

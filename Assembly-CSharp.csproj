@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32C3BDE6-E125-3128-82C1-25D0441455A3}</ProjectGuid>
+    <ProjectGuid>{03E6BF63-58DC-28EE-7568-D934E07B79E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -995,367 +995,367 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.csproj">
-      <Project>{2F8BFD87-AA02-71A6-8A19-1897C6E434C3}</Project>
+      <Project>{EC2EA379-FCE5-0D46-5916-490ECC3BE9D4}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Tools</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj">
-      <Project>{094519FF-59B4-095E-122B-1D2252D83F9E}</Project>
+      <Project>{9C2EE474-14E1-FBC1-1A56-DABC6476BB4E}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Audio.csproj">
-      <Project>{8F6A8230-A501-B81D-3B4E-8682959DE77E}</Project>
+      <Project>{E914BF73-1E19-2835-7455-A20FE75CF58A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Audio</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
-      <Project>{D1B3614E-785A-699F-38E7-3625C031DC10}</Project>
+      <Project>{70FDA131-9D35-D449-AA8F-9F08DFCBC190}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor.csproj">
-      <Project>{D9F84936-CA15-AE7A-B815-AAE716BC31E4}</Project>
+      <Project>{7C85BAB7-B069-043A-A133-FFE9A341C106}</Project>
       <Name>Microsoft.MixedReality.Toolkit.StandardAssets.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Editor.csproj">
-      <Project>{84AC4D5B-E60A-D5DC-B247-318C935FDCC6}</Project>
+      <Project>{33E9B028-5D3D-9129-A02C-7AE333BB3D7C}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKEditor.csproj">
-      <Project>{AA2A3F54-9C09-2897-EC05-1FA2CEFA6656}</Project>
+      <Project>{C49BE8AB-78D3-F2DC-B96D-D8732B93152C}</Project>
       <Name>AssistantCoreSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor.csproj">
-      <Project>{6AD61416-BA89-62E5-3E22-FB156A820534}</Project>
+      <Project>{5A2CBC73-606D-4E81-A5C9-D06FFFA509EC}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.csproj">
-      <Project>{223B3CD1-C16A-B95D-2D2D-F79992C0AA76}</Project>
+      <Project>{EC10FF27-4F98-FD77-EFA8-C48B8A515F9D}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Voice.Demo.csproj">
-      <Project>{9251C239-608E-BC54-B073-05499F3CCF58}</Project>
+      <Project>{22AF496F-E6A8-2418-365F-FFC6DD65035E}</Project>
       <Name>Oculus.Voice.Demo</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.csproj">
-      <Project>{DB4D2D42-5450-B3E5-4DE6-58A5DCE25679}</Project>
+      <Project>{62851E10-5DE2-782D-1BAA-1E6B7BC63859}</Project>
       <Name>Oculus.AudioManager</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj">
-      <Project>{0720F59C-085A-9523-28F8-FE9269506309}</Project>
+      <Project>{5CCC7D18-1DEB-FC7B-6E72-E5CF30FEC45D}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputAnimation</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.csproj">
-      <Project>{399210E1-EFA6-B134-AB89-71E27613E94E}</Project>
+      <Project>{C0654130-71FD-81A1-A4F1-D6EE764237C9}</Project>
       <Name>Oculus.Interaction</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.csproj">
-      <Project>{037A7814-17F2-7C52-B930-6DFACCE63569}</Project>
+      <Project>{24178F3D-E3B3-C7EC-AFC0-BB41259BC282}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Gltf</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem.csproj">
-      <Project>{08FDA484-2B52-C8A4-F2F5-1ABA65565A8C}</Project>
+      <Project>{416142D4-861A-E059-17C7-75FA62917E4A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.TeleportSystem</Name>
     </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
-      <Project>{D6A23B7B-D5BA-8A51-4DEA-DD149A5BA3C0}</Project>
+      <Project>{63EA29CF-7AD0-B691-D2EA-E6DFA51043C9}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.csproj">
-      <Project>{24AB03DE-4F56-FBFB-38DC-9327DD2D74A0}</Project>
+      <Project>{D028F7D3-696B-166B-5445-2741663B3AD4}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Extensions.HandPhysics</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Conduit.csproj">
-      <Project>{DAA36D7F-C6A1-7B0C-53B4-85A1BB5AF702}</Project>
+      <Project>{31F93711-A619-6587-2F7F-41D3DD352DD8}</Project>
       <Name>Facebook.Wit.Conduit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E53D067B-DBCD-A986-5F01-CC694F5A5884}</Project>
+      <Project>{2EFA4089-AB02-E928-543B-0221CFED1765}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="LitJson.csproj">
-      <Project>{9E79FFAB-885E-E453-084A-688B71A46D71}</Project>
+      <Project>{534ED137-36C3-4D58-A81A-6F75472083FC}</Project>
       <Name>LitJson</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.OVR.csproj">
-      <Project>{12148E6A-0CC5-E799-E38E-DAE073BBBF70}</Project>
+      <Project>{EED2A31D-2441-B0E8-9CE5-04826B918163}</Project>
       <Name>Oculus.Interaction.OVR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
-      <Project>{F301A3FA-E1C4-EF37-8FB8-A2F20E02C2B6}</Project>
+      <Project>{224D8D4F-0EBD-3476-A9D7-2013E691309A}</Project>
       <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem.csproj">
-      <Project>{D4F7C9D5-F80C-EF9B-DFA6-2169CBF9BC42}</Project>
+      <Project>{7B8CF3B7-68C8-63C8-C46D-3CC52AFF8D47}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.SceneSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj">
-      <Project>{48016496-539D-25CE-1572-09DE7F45D2E9}</Project>
+      <Project>{A1FE1E48-7EDD-C65B-C463-BC2B779C74EB}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.csproj">
-      <Project>{88A00397-2D39-3437-C9FB-C89FF0EDD9D7}</Project>
+      <Project>{C1BED5FE-E9ED-63F6-E998-B52D905D6C11}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.csproj">
-      <Project>{91CD1A5D-DDDA-05A1-0303-10014399426F}</Project>
+      <Project>{97F49E3F-BDD4-5146-FFB7-706508712A11}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Dictation.Editor.csproj">
-      <Project>{C935C971-81AF-A2DD-1D58-1780FB1B1D2C}</Project>
+      <Project>{82CBBB92-7BB5-281D-7BF7-762161A2F15C}</Project>
       <Name>Facebook.Wit.Dictation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.WitAI.csproj">
-      <Project>{59A81BBB-D913-50BA-B948-A53E8C361B77}</Project>
+      <Project>{04E88B38-DADF-053C-5A2A-68B56AD59C2A}</Project>
       <Name>Facebook.WitAI</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.csproj">
-      <Project>{1AF21E9F-2909-1BCB-63A3-017A40F875F1}</Project>
+      <Project>{641F28C2-1ACB-8E5E-E352-6ABE457C57B9}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Dictation.csproj">
-      <Project>{7D16C4AC-858E-C252-F891-A115FD84452A}</Project>
+      <Project>{0C8046B8-15C8-FBEC-3957-9D21EF792773}</Project>
       <Name>Facebook.Wit.Dictation</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.csproj">
-      <Project>{C62AEA91-3916-1206-534D-FB728FC39D42}</Project>
+      <Project>{C39F526B-51D4-2CF0-82F2-1695D94BA699}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.csproj">
-      <Project>{3C20A588-6C77-7DBD-1178-8135DFA7B57D}</Project>
+      <Project>{94EA93D7-1D8F-76AE-3F17-9E77320EDDC1}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{452A2AFC-BF24-93D6-0543-F29F39F23BCE}</Project>
+      <Project>{99E3B4B8-8163-56F4-0013-6CE7E16909CF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
-      <Project>{273E9CFD-C00E-F09B-E4D2-C17031CD2F2F}</Project>
+      <Project>{EBABA08C-C219-21B7-1484-5DC635D782E2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.csproj">
-      <Project>{40504AE6-B717-63BC-89E6-62DD36A3ABD0}</Project>
+      <Project>{84519541-3C0B-F6D8-CACB-994CC0E3D93C}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{5F952402-0FAE-5C57-AE5C-69C2E4459BCA}</Project>
+      <Project>{24EBD93A-ACA5-B9CC-19B4-E83B4505DD63}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
-      <Project>{06DF7683-AEDE-A154-4A09-6A681F41A52A}</Project>
+      <Project>{4745FF81-B7C4-E3E3-BB49-620E19E71DF6}</Project>
       <Name>Oculus.AudioManager.Audio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.csproj">
-      <Project>{F1516B11-EB83-BF16-672E-7E89E38D4AA4}</Project>
+      <Project>{2621BEAB-19F6-AD50-CCDE-D037A6797388}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Extensions.Tracking</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
-      <Project>{CDB061C6-7A13-4FAD-7246-C4DC8AB871BA}</Project>
+      <Project>{58AA7F4C-A266-5993-168A-311C074034EE}</Project>
       <Name>Oculus.Spatializer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj">
-      <Project>{D6ACAE60-10EA-D6C1-F4D1-E71BB5E77E4C}</Project>
+      <Project>{CC452697-B5E1-742B-155A-E9D0F0DCDC02}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.InspectorFields</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.csproj">
-      <Project>{E3594FA4-F104-C2B3-C433-575AA276FA84}</Project>
+      <Project>{4B07BB02-B527-78E7-AD42-1A69FCA15688}</Project>
       <Name>Facebook.Wit.TTS</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
-      <Project>{8D558FA7-356D-FE9B-F7BE-88E12065EC03}</Project>
+      <Project>{617AD40B-9401-2FEC-0754-6CB7E292986D}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.csproj">
-      <Project>{73F4179F-C2FD-A143-E3E9-A1674B9FE49B}</Project>
+      <Project>{E2AA06C0-AEFE-F9CE-D7AA-6957A2FDB9F4}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.csproj">
-      <Project>{02B96ED0-D36D-A757-E956-03EF4485A32E}</Project>
+      <Project>{1997D019-EDBD-0F21-6289-169AAE1172EC}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj">
-      <Project>{20A879BC-4028-FC52-ED61-7E4F9CE87AAC}</Project>
+      <Project>{A8E28629-73D0-E318-0407-181CB0754FC6}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
-      <Project>{31511069-08C9-C05F-1529-A0A8C127E61A}</Project>
+      <Project>{0326CB23-3F7D-4DF4-56AF-FFEFDE24F2E1}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.csproj">
-      <Project>{FD7FB9B2-ACF8-6F1C-58A7-85354C5AA3E3}</Project>
+      <Project>{13C782DA-A1DB-F1E7-1590-C5D87226B94A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Examples</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.Editor.csproj">
-      <Project>{32EF49BC-8E91-4371-67D2-D5FE9E586820}</Project>
+      <Project>{6C165847-8C4D-A524-75FA-74F487AF4088}</Project>
       <Name>Facebook.Wit.TTS.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{5B8DCB86-2C5F-E8A8-144D-3B418FBF32B4}</Project>
+      <Project>{BDD6E06C-7C69-581E-8618-07192E81F9AF}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.OVR.Samples.csproj">
-      <Project>{B78B5FAE-383A-2CBC-EA83-9539FB50A330}</Project>
+      <Project>{BEC23D5A-4676-2282-D3E1-ED27E9EABC45}</Project>
       <Name>Oculus.Interaction.OVR.Samples</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{619A6AC7-8E96-558B-820F-364CB4A43FA3}</Project>
+      <Project>{CF2D22F8-277D-DC18-98E0-182B91029DDF}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Samples.Editor.csproj">
-      <Project>{B7C1582D-F982-C6A8-FB50-B82B63552D98}</Project>
+      <Project>{B46BF329-EC6D-16CA-B7E8-DD547680816C}</Project>
       <Name>Oculus.Interaction.Samples.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj">
-      <Project>{B8745E11-6050-FCD2-4AC4-096DC7A6BCA5}</Project>
+      <Project>{4A273C5E-631E-6059-7510-94B4BF5B9BC7}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj">
-      <Project>{39B49B7F-9DC2-1D97-CB7B-34C23B300F7F}</Project>
+      <Project>{A0FB5821-BF57-4FE9-47C8-E36796C4161F}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Editor.csproj">
-      <Project>{65B5E4DC-B3F5-FA33-F51A-EF234F3864D1}</Project>
+      <Project>{8F19C04B-F772-1AD5-A250-374A43511189}</Project>
       <Name>Oculus.Interaction.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.csproj">
-      <Project>{D2695E13-F049-C3A7-4A8A-38160C3B2AC5}</Project>
+      <Project>{AB1454C1-5D49-E30F-53EF-C1347E0A96EF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem.csproj">
-      <Project>{9881BA5A-F867-31CB-B655-001741739C7B}</Project>
+      <Project>{B85F98F9-96A8-134D-CB53-0D44B5D6A511}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.CameraSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{6A1A818E-2075-7503-AC3E-AC553B965D20}</Project>
+      <Project>{01FA2AB4-8CA0-7F8F-B105-BC7051211110}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.csproj">
-      <Project>{F79355FB-5971-9019-9B0C-E3323E259EEF}</Project>
+      <Project>{52564E6C-AD86-1533-6FB7-AC3206C87CD8}</Project>
       <Name>Oculus.Spatializer</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj">
-      <Project>{892F171B-616F-AAE4-03DE-E20EFC169A52}</Project>
+      <Project>{7814D57A-5907-B7C6-1342-CC2BE038CC11}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.csproj">
-      <Project>{9B6BE668-FDBC-A23B-E9CD-29CFAFE36A4E}</Project>
+      <Project>{0193D2CC-3B8F-8FD0-45FC-09AFCF934BC2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj">
-      <Project>{87C31D1E-2C47-D78E-6D68-5C2C519583F0}</Project>
+      <Project>{43F567DC-2A91-7BA2-E221-9ADA4CAA1C6C}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime.csproj">
-      <Project>{8770CEEE-FCEC-3A13-CE76-257C3326E7B3}</Project>
+      <Project>{8EACC2EE-3370-B88F-DCD3-737CDAB20E0C}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Tools.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.csproj">
-      <Project>{CBB08504-5981-317E-5EE7-A80EE58F880A}</Project>
+      <Project>{F3EE7575-B671-51B0-D729-59D167ADEEFD}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Conduit.Editor.csproj">
-      <Project>{63362FBE-4CA6-BE61-FC7C-34587DAD9DFE}</Project>
+      <Project>{A95D7EDE-61B6-1548-C16E-558B00295583}</Project>
       <Name>Facebook.Wit.Conduit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Editor.csproj">
-      <Project>{EDAE8845-3DCC-C712-6E88-098FF88566AA}</Project>
+      <Project>{082103B1-038F-22D1-FA28-838D49C3D0A2}</Project>
       <Name>VoiceSDK.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj">
-      <Project>{1B775F97-AD1E-F2B4-C7BE-C2CB2FEE8207}</Project>
+      <Project>{E494E349-492C-E3E5-C59B-F0C0259BB0F3}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.InterfaceSupport.csproj">
-      <Project>{4B37C812-2C87-F3E7-BBA1-BFFCD700FAA2}</Project>
+      <Project>{67B8DBFF-69DF-7329-5B6D-9D738F647999}</Project>
       <Name>Oculus.Interaction.InterfaceSupport</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Editor.csproj">
-      <Project>{9AC12AA2-21EB-6DDF-E673-2CAB3AD0C568}</Project>
+      <Project>{6A924A77-1960-06CC-F3AA-5DE698774906}</Project>
       <Name>Facebook.Wit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.OVR.Editor.csproj">
-      <Project>{C9DC7B3C-B276-C6CD-5E59-836B69C1E89D}</Project>
+      <Project>{CCE344E3-2A69-03DC-CB93-4D1E953AB074}</Project>
       <Name>Oculus.Interaction.OVR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.csproj">
-      <Project>{693098A0-AA63-F342-E451-97962C40BFA7}</Project>
+      <Project>{277332EB-B7FA-E665-3BB2-A8D88AD435B7}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.csproj">
-      <Project>{63DA476E-5D73-ADFC-FDE4-B00EFBC8ACF0}</Project>
+      <Project>{97B13A4D-DF48-004A-EA52-7139144C5DA9}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj">
-      <Project>{6F0C3626-FB66-0482-9DD3-ED64FAFFFCBF}</Project>
+      <Project>{2CDBAA47-CAE6-FE71-BDB0-2E1A9F1DB5A9}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.UX.Interactables</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
-      <Project>{25061A6A-FD25-AB08-B28E-730DF242B4F2}</Project>
+      <Project>{D17D228D-3413-BF41-A21E-0FF88AE50820}</Project>
       <Name>VoiceSDK.Dictation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj">
-      <Project>{62ADDF1B-D75B-7A7E-8DA4-CDFC78E44052}</Project>
+      <Project>{4D3F0F08-6000-9F8C-537B-3F073A4BABA1}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{6F5DCEA0-CD24-3850-1354-95B968FF52EC}</Project>
+      <Project>{22D3FEB7-EC42-1683-A1A2-A892A06A87D8}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.csproj">
-      <Project>{D0BAFB0A-1432-B3B7-C6EF-FB11DE157E46}</Project>
+      <Project>{849AFAB4-C6AF-96B6-276D-CC320EBE99F4}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
-      <Project>{969F8221-7649-852C-F238-1E3F53705FD5}</Project>
+      <Project>{A56F4341-C3B2-8427-497E-C2B538F422A1}</Project>
       <Name>Oculus.LipSync.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj">
-      <Project>{5EE81C6C-E005-BB9C-963D-76E223098790}</Project>
+      <Project>{476D789C-1E37-EF47-F9CD-C78A9F50D33E}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Gltf</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.csproj">
-      <Project>{DA393075-10D2-0A1F-8717-56F225792E80}</Project>
+      <Project>{C67B7B1C-09CC-3CDA-422D-3F477B344796}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Runtime.csproj">
-      <Project>{43AB9CDC-BA6D-D7E6-471D-993377B8649E}</Project>
+      <Project>{8A8B7424-B638-5AC1-5247-3565EC9CB928}</Project>
       <Name>VoiceSDK.Dictation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.Samples.csproj">
-      <Project>{606DBB14-D959-9A5E-1938-FD826D6E410A}</Project>
+      <Project>{FF048BB3-B1A2-A792-56BA-F5141EA8771B}</Project>
       <Name>Facebook.Wit.TTS.Samples</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor.csproj">
-      <Project>{0AD70682-6284-CDAD-EB8C-1980CF33EBFC}</Project>
+      <Project>{2EE8123F-8C8B-38DE-F68B-9DC1B58CC8C1}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.csproj">
-      <Project>{742AAB39-5136-CFEE-6DF6-3DCF14E75C00}</Project>
+      <Project>{B2A78393-1C45-0E7D-2B79-58B2B610234E}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Runtime.csproj">
-      <Project>{BFCB1A71-A1B1-F655-2E3A-49328AF55F29}</Project>
+      <Project>{C238982B-B1E8-F135-396B-A2715E2697A3}</Project>
       <Name>VoiceSDK.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{6CAC95EE-9648-94A9-A6B4-D5CEA7E69310}</Project>
+      <Project>{CC61D603-46D8-3EC9-AA0C-DBD6E68F4854}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.csproj">
-      <Project>{477A8FDB-D25D-304B-D2D7-4AAF48B42F5E}</Project>
+      <Project>{C840DA23-37E5-2DFC-A7C6-8F4B5C9455C1}</Project>
       <Name>Oculus.LipSync</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj">
-      <Project>{4F244E0B-B53C-8EED-22D8-3581741FC045}</Project>
+      <Project>{9D07B9F6-52CA-DE32-E839-FB4616CA30D2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Gltf.Importers</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.csproj">
-      <Project>{11BDFCBA-C510-74EC-FC36-85449752882D}</Project>
+      <Project>{90AFAB32-782F-F2E9-AF51-634FDBCC39D2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj">
-      <Project>{F217B57C-8C6A-46F5-B5C6-1502A2BE818D}</Project>
+      <Project>{C81039C1-5517-B306-00A6-F0D79DC9E2B2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj">
-      <Project>{C45171A9-D2DD-832E-E98F-2403F469EDE8}</Project>
+      <Project>{1339B217-74C0-97C8-50F8-5F4BC5D44097}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors</Name>
     </ProjectReference>
   </ItemGroup>

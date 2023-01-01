@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{452A2AFC-BF24-93D6-0543-F29F39F23BCE}</ProjectGuid>
+    <ProjectGuid>{99E3B4B8-8163-56F4-0013-6CE7E16909CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Editor.Utilities</AssemblyName>
@@ -788,7 +788,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj">
-      <Project>{62ADDF1B-D75B-7A7E-8DA4-CDFC78E44052}</Project>
+      <Project>{4D3F0F08-6000-9F8C-537B-3F073A4BABA1}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{39B49B7F-9DC2-1D97-CB7B-34C23B300F7F}</ProjectGuid>
+    <ProjectGuid>{A0FB5821-BF57-4FE9-47C8-E36796C4161F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors</AssemblyName>
@@ -753,7 +753,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.csproj">
-      <Project>{FD7FB9B2-ACF8-6F1C-58A7-85354C5AA3E3}</Project>
+      <Project>{13C782DA-A1DB-F1E7-1590-C5D87226B94A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Examples</Name>
     </ProjectReference>
   </ItemGroup>

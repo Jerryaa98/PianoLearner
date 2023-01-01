@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{59A81BBB-D913-50BA-B948-A53E8C361B77}</ProjectGuid>
+    <ProjectGuid>{04E88B38-DADF-053C-5A2A-68B56AD59C2A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Facebook.WitAI</AssemblyName>
@@ -813,7 +813,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Facebook.Wit.Conduit.csproj">
-      <Project>{DAA36D7F-C6A1-7B0C-53B4-85A1BB5AF702}</Project>
+      <Project>{31F93711-A619-6587-2F7F-41D3DD352DD8}</Project>
       <Name>Facebook.Wit.Conduit</Name>
     </ProjectReference>
   </ItemGroup>

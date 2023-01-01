@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9E79FFAB-885E-E453-084A-688B71A46D71}</ProjectGuid>
+    <ProjectGuid>{534ED137-36C3-4D58-A81A-6F75472083FC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>LitJson</AssemblyName>

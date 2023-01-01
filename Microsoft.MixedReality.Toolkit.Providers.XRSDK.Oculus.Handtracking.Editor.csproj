@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{88A00397-2D39-3437-C9FB-C89FF0EDD9D7}</ProjectGuid>
+    <ProjectGuid>{C1BED5FE-E9ED-63F6-E998-B52D905D6C11}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor</AssemblyName>
@@ -753,19 +753,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E53D067B-DBCD-A986-5F01-CC694F5A5884}</Project>
+      <Project>{2EFA4089-AB02-E928-543B-0221CFED1765}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{452A2AFC-BF24-93D6-0543-F29F39F23BCE}</Project>
+      <Project>{99E3B4B8-8163-56F4-0013-6CE7E16909CF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj">
-      <Project>{094519FF-59B4-095E-122B-1D2252D83F9E}</Project>
+      <Project>{9C2EE474-14E1-FBC1-1A56-DABC6476BB4E}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{619A6AC7-8E96-558B-820F-364CB4A43FA3}</Project>
+      <Project>{CF2D22F8-277D-DC18-98E0-182B91029DDF}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D9F84936-CA15-AE7A-B815-AAE716BC31E4}</ProjectGuid>
+    <ProjectGuid>{7C85BAB7-B069-043A-A133-FFE9A341C106}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.StandardAssets.Editor</AssemblyName>

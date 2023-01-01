@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{62ADDF1B-D75B-7A7E-8DA4-CDFC78E44052}</ProjectGuid>
+    <ProjectGuid>{4D3F0F08-6000-9F8C-537B-3F073A4BABA1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</AssemblyName>
