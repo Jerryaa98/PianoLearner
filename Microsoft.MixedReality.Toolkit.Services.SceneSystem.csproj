@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D4F7C9D5-F80C-EF9B-DFA6-2169CBF9BC42}</ProjectGuid>
+    <ProjectGuid>{7B8CF3B7-68C8-63C8-C46D-3CC52AFF8D47}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Services.SceneSystem</AssemblyName>
@@ -725,7 +725,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E53D067B-DBCD-A986-5F01-CC694F5A5884}</Project>
+      <Project>{2EFA4089-AB02-E928-543B-0221CFED1765}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
   </ItemGroup>

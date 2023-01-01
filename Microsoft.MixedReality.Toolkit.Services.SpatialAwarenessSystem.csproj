@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B8745E11-6050-FCD2-4AC4-096DC7A6BCA5}</ProjectGuid>
+    <ProjectGuid>{4A273C5E-631E-6059-7510-94B4BF5B9BC7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem</AssemblyName>
@@ -723,7 +723,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E53D067B-DBCD-A986-5F01-CC694F5A5884}</Project>
+      <Project>{2EFA4089-AB02-E928-543B-0221CFED1765}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
   </ItemGroup>

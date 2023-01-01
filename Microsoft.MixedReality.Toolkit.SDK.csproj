@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{31511069-08C9-C05F-1529-A0A8C127E61A}</ProjectGuid>
+    <ProjectGuid>{0326CB23-3F7D-4DF4-56AF-FFEFDE24F2E1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.SDK</AssemblyName>
@@ -1037,27 +1037,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E53D067B-DBCD-A986-5F01-CC694F5A5884}</Project>
+      <Project>{2EFA4089-AB02-E928-543B-0221CFED1765}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{6CAC95EE-9648-94A9-A6B4-D5CEA7E69310}</Project>
+      <Project>{CC61D603-46D8-3EC9-AA0C-DBD6E68F4854}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{452A2AFC-BF24-93D6-0543-F29F39F23BCE}</Project>
+      <Project>{99E3B4B8-8163-56F4-0013-6CE7E16909CF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj">
-      <Project>{0720F59C-085A-9523-28F8-FE9269506309}</Project>
+      <Project>{5CCC7D18-1DEB-FC7B-6E72-E5CF30FEC45D}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputAnimation</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
-      <Project>{273E9CFD-C00E-F09B-E4D2-C17031CD2F2F}</Project>
+      <Project>{EBABA08C-C219-21B7-1484-5DC635D782E2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
-      <Project>{D1B3614E-785A-699F-38E7-3625C031DC10}</Project>
+      <Project>{70FDA131-9D35-D449-AA8F-9F08DFCBC190}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
     </ProjectReference>
   </ItemGroup>

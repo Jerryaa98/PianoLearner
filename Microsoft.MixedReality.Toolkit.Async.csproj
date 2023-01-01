@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6CAC95EE-9648-94A9-A6B4-D5CEA7E69310}</ProjectGuid>
+    <ProjectGuid>{CC61D603-46D8-3EC9-AA0C-DBD6E68F4854}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Async</AssemblyName>

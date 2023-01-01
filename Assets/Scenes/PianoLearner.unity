@@ -749,12 +749,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+      propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -786,11 +790,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ClickKey
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: ClickKey
+      objectReference: {fileID: 0}
+    - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+      propertyPath: TouchBegin.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Microsoft.MixedReality.Toolkit.Examples.Demos.DebugTextOutput, Microsoft.MixedReality.Toolkit.Examples
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -798,7 +806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -811,7 +819,7 @@ PrefabInstance:
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1533960320}
+      objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: 
@@ -826,7 +834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -3194,7 +3202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -3226,7 +3234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ClickKey
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -3238,7 +3246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ClickGuideSong, Assembly-CSharp
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -3251,7 +3259,7 @@ PrefabInstance:
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 951962239}
+      objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: 
@@ -3266,7 +3274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5786834696627977342, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -3815,7 +3823,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428262890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.074, z: 0.198}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3898,7 +3906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ColorMaterial: {fileID: 2100000, guid: 3c55769e893c4f4c8c51b7fa69bee2b9, type: 2}
-  SongName: AllKeys
+  SongName: CmajChord
 --- !u!1 &1773997769 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7985347749080052962, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}

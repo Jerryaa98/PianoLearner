@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BFCB1A71-A1B1-F655-2E3A-49328AF55F29}</ProjectGuid>
+    <ProjectGuid>{C238982B-B1E8-F135-396B-A2715E2697A3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VoiceSDK.Runtime</AssemblyName>
@@ -730,15 +730,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
-      <Project>{D6A23B7B-D5BA-8A51-4DEA-DD149A5BA3C0}</Project>
+      <Project>{63EA29CF-7AD0-B691-D2EA-E6DFA51043C9}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.WitAI.csproj">
-      <Project>{59A81BBB-D913-50BA-B948-A53E8C361B77}</Project>
+      <Project>{04E88B38-DADF-053C-5A2A-68B56AD59C2A}</Project>
       <Name>Facebook.WitAI</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Conduit.csproj">
-      <Project>{DAA36D7F-C6A1-7B0C-53B4-85A1BB5AF702}</Project>
+      <Project>{31F93711-A619-6587-2F7F-41D3DD352DD8}</Project>
       <Name>Facebook.Wit.Conduit</Name>
     </ProjectReference>
   </ItemGroup>

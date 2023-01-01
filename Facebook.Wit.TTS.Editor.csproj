@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32EF49BC-8E91-4371-67D2-D5FE9E586820}</ProjectGuid>
+    <ProjectGuid>{6C165847-8C4D-A524-75FA-74F487AF4088}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Facebook.Wit.TTS.Editor</AssemblyName>
@@ -760,15 +760,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Facebook.WitAI.csproj">
-      <Project>{59A81BBB-D913-50BA-B948-A53E8C361B77}</Project>
+      <Project>{04E88B38-DADF-053C-5A2A-68B56AD59C2A}</Project>
       <Name>Facebook.WitAI</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Editor.csproj">
-      <Project>{9AC12AA2-21EB-6DDF-E673-2CAB3AD0C568}</Project>
+      <Project>{6A924A77-1960-06CC-F3AA-5DE698774906}</Project>
       <Name>Facebook.Wit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.csproj">
-      <Project>{E3594FA4-F104-C2B3-C433-575AA276FA84}</Project>
+      <Project>{4B07BB02-B527-78E7-AD42-1A69FCA15688}</Project>
       <Name>Facebook.Wit.TTS</Name>
     </ProjectReference>
   </ItemGroup>

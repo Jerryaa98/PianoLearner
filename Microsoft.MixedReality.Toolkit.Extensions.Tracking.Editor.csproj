@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6AD61416-BA89-62E5-3E22-FB156A820534}</ProjectGuid>
+    <ProjectGuid>{5A2CBC73-606D-4E81-A5C9-D06FFFA509EC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor</AssemblyName>
@@ -753,15 +753,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E53D067B-DBCD-A986-5F01-CC694F5A5884}</Project>
+      <Project>{2EFA4089-AB02-E928-543B-0221CFED1765}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj">
-      <Project>{C45171A9-D2DD-832E-E98F-2403F469EDE8}</Project>
+      <Project>{1339B217-74C0-97C8-50F8-5F4BC5D44097}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.csproj">
-      <Project>{F1516B11-EB83-BF16-672E-7E89E38D4AA4}</Project>
+      <Project>{2621BEAB-19F6-AD50-CCDE-D037A6797388}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Extensions.Tracking</Name>
     </ProjectReference>
   </ItemGroup>

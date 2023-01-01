@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.Editor</RootNamespace>
-    <ProjectGuid>{0AD70682-6284-CDAD-EB8C-1980CF33EBFC}</ProjectGuid>
+    <ProjectGuid>{2EE8123F-8C8B-38DE-F68B-9DC1B58CC8C1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor</AssemblyName>
@@ -753,19 +753,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E53D067B-DBCD-A986-5F01-CC694F5A5884}</Project>
+      <Project>{2EFA4089-AB02-E928-543B-0221CFED1765}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{452A2AFC-BF24-93D6-0543-F29F39F23BCE}</Project>
+      <Project>{99E3B4B8-8163-56F4-0013-6CE7E16909CF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
-      <Project>{8D558FA7-356D-FE9B-F7BE-88E12065EC03}</Project>
+      <Project>{617AD40B-9401-2FEC-0754-6CB7E292986D}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.csproj">
-      <Project>{9B6BE668-FDBC-A23B-E9CD-29CFAFE36A4E}</Project>
+      <Project>{0193D2CC-3B8F-8FD0-45FC-09AFCF934BC2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.OpenXR</Name>
     </ProjectReference>
   </ItemGroup>

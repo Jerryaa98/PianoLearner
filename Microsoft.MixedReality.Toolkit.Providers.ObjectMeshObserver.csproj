@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{693098A0-AA63-F342-E451-97962C40BFA7}</ProjectGuid>
+    <ProjectGuid>{277332EB-B7FA-E665-3BB2-A8D88AD435B7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver</AssemblyName>
@@ -757,15 +757,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E53D067B-DBCD-A986-5F01-CC694F5A5884}</Project>
+      <Project>{2EFA4089-AB02-E928-543B-0221CFED1765}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
-      <Project>{8D558FA7-356D-FE9B-F7BE-88E12065EC03}</Project>
+      <Project>{617AD40B-9401-2FEC-0754-6CB7E292986D}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{452A2AFC-BF24-93D6-0543-F29F39F23BCE}</Project>
+      <Project>{99E3B4B8-8163-56F4-0013-6CE7E16909CF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
     </ProjectReference>
   </ItemGroup>

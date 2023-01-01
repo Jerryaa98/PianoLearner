@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{40504AE6-B717-63BC-89E6-62DD36A3ABD0}</ProjectGuid>
+    <ProjectGuid>{84519541-3C0B-F6D8-CACB-994CC0E3D93C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding</AssemblyName>
@@ -694,19 +694,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{E53D067B-DBCD-A986-5F01-CC694F5A5884}</Project>
+      <Project>{2EFA4089-AB02-E928-543B-0221CFED1765}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{6CAC95EE-9648-94A9-A6B4-D5CEA7E69310}</Project>
+      <Project>{CC61D603-46D8-3EC9-AA0C-DBD6E68F4854}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj">
-      <Project>{20A879BC-4028-FC52-ED61-7E4F9CE87AAC}</Project>
+      <Project>{A8E28629-73D0-E318-0407-181CB0754FC6}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj">
-      <Project>{1B775F97-AD1E-F2B4-C7BE-C2CB2FEE8207}</Project>
+      <Project>{E494E349-492C-E3E5-C59B-F0C0259BB0F3}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK</Name>
     </ProjectReference>
   </ItemGroup>

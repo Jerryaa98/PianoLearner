@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7FBE4C9B-A542-1503-5BBD-5D5DFB72A646}</ProjectGuid>
+    <ProjectGuid>{AE93294C-A5B4-7ECA-4B48-B0C1DCF06D2D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.MSBuild</AssemblyName>

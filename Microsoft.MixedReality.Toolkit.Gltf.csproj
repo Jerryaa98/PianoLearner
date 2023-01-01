@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{037A7814-17F2-7C52-B930-6DFACCE63569}</ProjectGuid>
+    <ProjectGuid>{24178F3D-E3B3-C7EC-AFC0-BB41259BC282}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Gltf</AssemblyName>
@@ -773,7 +773,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{6CAC95EE-9648-94A9-A6B4-D5CEA7E69310}</Project>
+      <Project>{CC61D603-46D8-3EC9-AA0C-DBD6E68F4854}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
   </ItemGroup>
