@@ -6,13 +6,17 @@ using Microsoft.MixedReality.Toolkit.UI;
 
 public class ClickSong : MonoBehaviour
 {
-    List<(string, string, float, float)> keysToPlay;
-
     public Material ColorMaterial;
-    private Material originalMaterial;
-    private int litKey = 0;
-
     public string SongName;
+
+    List<SongNote> keysToPlay;
+    List<PianoCube> objects = new List<PianoCube>();
+    int litKey = 0;
+    float startTime;
+    float speed = 0.01f;
+    float width = 0.02f;
+    float depth = 0.02f;
+    float distance = 0.25f;
 
     void Start()
     {
@@ -31,7 +35,7 @@ public class ClickSong : MonoBehaviour
         {
             return;
         }
-        keysToPlay = new List<(string, string, float, float)>();
+        keysToPlay = new List<SongNote>();
         if (objects.Any())
         {
             foreach (var obj in objects)
@@ -46,10 +50,16 @@ public class ClickSong : MonoBehaviour
         foreach (var line in lines)
         {
             string[] split = line.Trim().Split(',');
-            keysToPlay.Add((split[0], split[1], float.Parse(split[2]), float.Parse(split[3])));
+            keysToPlay.Add(new SongNote
+            {
+                Octave = split[0],
+                Note = split[1],
+                StartTime = float.Parse(split[2]),
+                EndTime = float.Parse(split[3])
+            });
         }
         litKey = 0;
-        var currentKey = keysToPlay[litKey];
+        var currentKey = keysToPlay.Where(k => k.StartTime == 0);
         SetNewMaterial(currentKey);
         InstantiateKeys();
         startTime = Time.time;
@@ -62,11 +72,17 @@ public class ClickSong : MonoBehaviour
             return;
         }
 
-        var currentKey = keysToPlay[litKey];
-        if (string.Equals(currentKey.Item2, obj.name, StringComparison.InvariantCultureIgnoreCase) &&
-            string.Equals(currentKey.Item1, obj.transform.parent.name, StringComparison.InvariantCultureIgnoreCase))
+        var foundNote = ClickedNotes.FirstOrDefault(n => string.Equals(n.Note.Note, obj.name, StringComparison.InvariantCultureIgnoreCase) &&
+            string.Equals(n.Note.Octave, obj.transform.parent.name, StringComparison.InvariantCultureIgnoreCase)
+            && !n.Clicked);
+        if(foundNote != null)
         {
-            SetOriginalMaterial(currentKey);
+            Debug.Log(foundNote);
+            foundNote.Clicked = true;
+        }
+        if(ClickedNotes.All(n => n.Clicked))
+        {
+            SetOriginalMaterial(ClickedNotes.Select(n => n.Note));
             JumpKey();
 
             litKey++;
@@ -74,48 +90,21 @@ public class ClickSong : MonoBehaviour
             {
                 return;
             }
-            currentKey = keysToPlay[litKey];
-            SetNewMaterial(currentKey);
+
+            //SetNewMaterial( /* todo: find next keys to play*/);
         }
-    }
-
-    GameObject GetPianoKeyGO((string, string, float, float) currentKey)
-    {
-        return GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey");
-    }
-
-    void SetOriginalMaterial((string, string, float, float) currentKey)
-    {
-        // var theme = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").transform.parent.GetComponent<Interactable>().ActiveThemes[0];
-        // theme.StateProperties.FirstOrDefault(sp => sp.Name.Equals("color", StringComparison.CurrentCultureIgnoreCase)).Values.FirstOrDefault(v => v.Name.Equals("default", StringComparison.CurrentCultureIgnoreCase)).Color = originalColor;
-        GetPianoKeyGO(currentKey).GetComponent<MeshRenderer>().material = originalMaterial;
-    }
-
-    void SetNewMaterial((string, string, float, float) currentKey)
-    {
-        // var theme = GameObject.Find($"{currentKey.Item1}/{currentKey.Item2}/MovingKey").transform.parent.GetComponent<Interactable>().ActiveThemes[0];
-        // originalColor = theme.StateProperties.FirstOrDefault(sp => sp.Name.Equals("color", StringComparison.CurrentCultureIgnoreCase)).Values.FirstOrDefault(v => v.Name.Equals("default", StringComparison.CurrentCultureIgnoreCase)).Color;
-        // theme.StateProperties.FirstOrDefault(sp => sp.Name.Equals("color", StringComparison.CurrentCultureIgnoreCase)).Values.FirstOrDefault(v => v.Name.Equals("default", StringComparison.CurrentCultureIgnoreCase)).Color = newColor;
-        originalMaterial = GetPianoKeyGO(currentKey).GetComponent<MeshRenderer>().material;
-        GetPianoKeyGO(currentKey).GetComponent<MeshRenderer>().material = ColorMaterial;
-    }
-
-    List<PianoCube> objects = new List<PianoCube>();
-
-    class PianoCube
-    {
-        public GameObject Cube;
-        public float Length;
-        public Vector3 Position;
     }
 
     void JumpKey()
     {
-        var goLength = objects.FirstOrDefault().Position;
-        Destroy(objects[0].Cube);
-        objects.RemoveAt(0);
+        foreach(var n in ClickedNotes)
+        {
+            var matchingObjectIndex = objects.FindIndex(o => o.Note == n.Note);
+            Destroy(objects[matchingObjectIndex].Cube);
+            objects.RemoveAt(matchingObjectIndex);
+        }
+
         float lastPosition = 0f;
-        var distance = 0.25f;
         foreach (var obj in objects)
         {
             obj.Cube.transform.localPosition = new Vector3(0f, distance, (-obj.Length * 0.5f) - lastPosition);
@@ -125,9 +114,6 @@ public class ClickSong : MonoBehaviour
         startTime = Time.time;
     }
 
-    float startTime;
-    float speed = 0.5f;
-
     void Update()
     {
         if (!objects.Any())
@@ -136,7 +122,7 @@ public class ClickSong : MonoBehaviour
         }
 
         var keyLength = objects.FirstOrDefault().Length;
-        var journeyLength = keyLength;
+        var journeyLength = keyLength * 0.06f;
         float distCovered = (Time.time - startTime) * speed;
         float fractionOfJourney = distCovered / journeyLength;
 
@@ -156,26 +142,80 @@ public class ClickSong : MonoBehaviour
 
     void InstantiateKeys()
     {
-        float lastPosition = 0f;
-        var width = 0.02f;
-        var depth = 0.02f;
-        var distance = 0.25f;
         foreach (var key in keysToPlay)
         {
             var go = GetPianoKeyGO(key);
             GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube.GetComponent<MeshRenderer>().material.color = Color.cyan;
             cube.transform.parent = go.transform.parent;
-            var length = (key.Item4 - key.Item3) * 0.06f;
+            var length = key.Length * 0.06f;
             cube.transform.localScale = new Vector3(width, length, depth);
-            cube.transform.localPosition = new Vector3(0, distance, (-length * 0.5f) - lastPosition);
-            lastPosition += length;
+            cube.transform.localPosition = new Vector3(0, distance, -(key.StartTime * 0.06f + (0.5f * length)));
             objects.Add(new PianoCube
             {
                 Cube = cube,
                 Length = length,
-                Position = cube.transform.localPosition
+                Position = cube.transform.localPosition,
+                Note = key
             });
         }
+    }
+
+    GameObject GetPianoKeyGO(SongNote currentKey)
+    {
+        return GameObject.Find($"{currentKey.Octave}/{currentKey.Note}/MovingKey");
+    }
+
+    void SetOriginalMaterial(IEnumerable<SongNote> keys)
+    {
+        foreach(var key in keys)
+        {
+            Debug.Log("setting original material");
+            GetPianoKeyGO(key).GetComponent<MeshRenderer>().material = key.OriginaMaterial;
+        }
+    }
+
+    void SetNewMaterial(IEnumerable<SongNote> keys)
+    {
+        foreach(var key in keys)
+        {
+            key.OriginaMaterial = GetPianoKeyGO(key).GetComponent<MeshRenderer>().material;
+            GetPianoKeyGO(key).GetComponent<MeshRenderer>().material = ColorMaterial;
+        }
+
+        if (keys.Count() > 1)
+        {
+            ClickedNotes = keys.Select(k => new ClickedNote
+            {
+                Note = k,
+                Clicked = false
+            }).ToList();
+        }
+    }
+
+    List<ClickedNote> ClickedNotes;
+
+    class ClickedNote
+    {
+        public SongNote Note { get; set; }
+        public bool Clicked { get; set; }
+    }
+
+    class PianoCube
+    {
+        public GameObject Cube;
+        public float Length;
+        public Vector3 Position;
+        public SongNote Note;
+    }
+
+    class SongNote
+    {
+        public string Octave { get; set; }
+        public string Note { get; set; }
+        public float StartTime { get; set; }
+        public float EndTime { get; set; }
+        public float Length { get { return EndTime - StartTime; } }
+        public Material OriginaMaterial { get; set; }
     }
 }
