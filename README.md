@@ -5,3 +5,4 @@ to do:-
 - [ ] multi finger collision
 - [ ] add songs
 - [ ] translate and move piano location
+- [ ] fix F key bug
