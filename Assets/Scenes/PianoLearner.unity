@@ -3995,8 +3995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e46061e8e5cf50e44bd4285977b7be96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorMaterial: {fileID: 2100000, guid: 3c55769e893c4f4c8c51b7fa69bee2b9, type: 2}
-  SongName: Fkey
+  SongName: FProgression
 --- !u!1 &1773997769 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7985347749080052962, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}

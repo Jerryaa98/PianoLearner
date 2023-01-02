@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
+using Microsoft.MixedReality.Toolkit.UI;
 using UnityEngine;
 
 public class ClickSong : MonoBehaviour
 {
-    public Material ColorMaterial;
     public string SongName;
 
     List<SongNote> keysToPlay;
@@ -183,7 +183,9 @@ public class ClickSong : MonoBehaviour
     {
         foreach (var key in keys)
         {
-            GetPianoKeyGO(key).GetComponent<MeshRenderer>().material = key.OriginaMaterial;
+            var interactable = GetPianoKeyGO(key).transform.parent.GetComponent<Interactable>();
+            interactable.Profiles[0].Themes[0] = key.OriginaTheme;
+            interactable.RefreshSetup();
         }
     }
 
@@ -191,8 +193,11 @@ public class ClickSong : MonoBehaviour
     {
         foreach (var key in keys)
         {
-            key.OriginaMaterial = GetPianoKeyGO(key).GetComponent<MeshRenderer>().material;
-            GetPianoKeyGO(key).GetComponent<MeshRenderer>().material = ColorMaterial;
+            var interactable = GetPianoKeyGO(key).transform.parent.GetComponent<Interactable>();
+            key.OriginaTheme = interactable.Profiles[0].Themes[0];
+            var theme = Resources.Load<Theme>($"{interactable.Profiles[0].Themes[0].name}Click");
+            interactable.Profiles[0].Themes[0] = theme;
+            interactable.RefreshSetup();
         }
 
         ClickedNotes = keys.Select(k => new ClickedNote
@@ -224,6 +229,6 @@ public class ClickSong : MonoBehaviour
         public float StartTime { get; set; }
         public float EndTime { get; set; }
         public float Length { get { return EndTime - StartTime; } }
-        public Material OriginaMaterial { get; set; }
+        public Theme OriginaTheme { get; set; }
     }
 }
