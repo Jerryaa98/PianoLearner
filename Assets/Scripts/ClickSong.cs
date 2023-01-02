@@ -86,6 +86,7 @@ public class ClickSong : MonoBehaviour
         if (ClickedNotes.All(n => n.Clicked))
         {
             SetOriginalMaterial(ClickedNotes.Select(n => n.Note));
+            minTime = keysToPlay.Where(k => k.StartTime > minTime).Min(k => k.StartTime);
             JumpKey();
 
             litKey += ClickedNotes.Count;
@@ -94,13 +95,13 @@ public class ClickSong : MonoBehaviour
                 return;
             }
 
-            minTime = keysToPlay.Where(k => k.StartTime > minTime).Min(k => k.StartTime);
             SetNewMaterial(keysToPlay.Where(k => k.StartTime == minTime));
         }
     }
 
     void JumpKey()
     {
+        float gap = ClickedNotes.FirstOrDefault()?.Note.StartTime ?? 0;
         foreach (var n in ClickedNotes)
         {
             var matchingObjectIndex = objects.FindIndex(o => o.Note == n.Note);
@@ -108,12 +109,10 @@ public class ClickSong : MonoBehaviour
             objects.RemoveAt(matchingObjectIndex);
         }
 
-        float lastPosition = 0f;
         foreach (var obj in objects)
         {
             float x = GetCubeXPosition(obj);
-            obj.Cube.transform.localPosition = new Vector3(x, distance, (-obj.Length * 0.5f) - lastPosition);
-            lastPosition += obj.Length;
+            obj.Cube.transform.localPosition = new Vector3(x, distance, -keyFactor*(obj.Note.StartTime - minTime + (0.5f * obj.Note.Length)));
             obj.Position = obj.Cube.transform.localPosition;
         }
         startTime = Time.time;
