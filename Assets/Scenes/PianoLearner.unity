@@ -460,6 +460,10 @@ PrefabInstance:
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3743396904031863927, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3936684278984776133, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -3992,7 +3996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ColorMaterial: {fileID: 2100000, guid: 3c55769e893c4f4c8c51b7fa69bee2b9, type: 2}
-  SongName: CmajChord
+  SongName: Fkey
 --- !u!1 &1773997769 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7985347749080052962, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
