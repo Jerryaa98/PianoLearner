@@ -4,5 +4,6 @@ to do:-
 - [ ] fix set material
 - [ ] multi finger collision
 - [ ] add songs
-- [ ] translate and move piano location
+- [x] translate and move piano location
 - [ ] fix F key bug
+- [x] cube multicolor
