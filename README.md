@@ -5,5 +5,5 @@ to do:-
 - [ ] multi finger collision
 - [ ] add songs
 - [x] translate and move piano location
-- [ ] fix F key bug
+- [x] fix F key bug
 - [x] cube multicolor
