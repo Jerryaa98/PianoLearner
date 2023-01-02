@@ -86,14 +86,15 @@ public class ClickSong : MonoBehaviour
         if (ClickedNotes.All(n => n.Clicked))
         {
             SetOriginalMaterial(ClickedNotes.Select(n => n.Note));
-            minTime = keysToPlay.Where(k => k.StartTime > minTime).Min(k => k.StartTime);
-            JumpKey();
-
             litKey += ClickedNotes.Count;
             if (litKey >= keysToPlay.Count)
             {
+                JumpKey();
                 return;
             }
+            minTime = keysToPlay.Where(k => k.StartTime > minTime).Min(k => k.StartTime);
+            JumpKey();
+
 
             SetNewMaterial(keysToPlay.Where(k => k.StartTime == minTime));
         }
