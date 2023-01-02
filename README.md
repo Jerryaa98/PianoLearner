@@ -13,3 +13,4 @@ to do:-
 - [x] translate and move piano location via collision box
 - [x] fix F key bug
 - [x] cube multicolor
+- [ ] fix song continuity
