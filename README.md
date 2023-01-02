@@ -14,3 +14,4 @@ to do:-
 - [x] fix F key bug
 - [x] cube multicolor
 - [ ] fix song continuity
+- [ ] fix NULL bug on last keys
