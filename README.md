@@ -16,3 +16,4 @@ to do:-
 - [ ] fix song continuity
 - [x] fix NULL bug on last keys
 - [ ] set background
+- [ ] add menu for songs
