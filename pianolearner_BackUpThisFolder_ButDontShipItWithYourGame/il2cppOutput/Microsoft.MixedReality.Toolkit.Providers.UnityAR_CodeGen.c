@@ -42,13 +42,13 @@ static Il2CppMethodPointer s_methodPointers[8] =
 static const int32_t s_InvokerIndices[8] = 
 {
 	1287,
-	6869,
-	6626,
-	6742,
-	6696,
-	6696,
-	6696,
-	6869,
+	6864,
+	6621,
+	6737,
+	6691,
+	6691,
+	6691,
+	6864,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Providers_UnityAR_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Providers_UnityAR_CodeGenModule = 
