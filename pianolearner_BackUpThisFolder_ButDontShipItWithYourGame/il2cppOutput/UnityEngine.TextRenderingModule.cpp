@@ -2544,15 +2544,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Font_tC95270EA3198038970422D78B74A7F2E218A96B
 	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-// System.Void UnityEngine.TextMesh::set_font(UnityEngine.Font)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMesh_set_font_m7E407CAEDBB382B95B70069D8FAB8A9E74EAAA74 (TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* __this, Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___value0, const RuntimeMethod* method) 
-{
-	typedef void (*TextMesh_set_font_m7E407CAEDBB382B95B70069D8FAB8A9E74EAAA74_ftn) (TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8*, Font_tC95270EA3198038970422D78B74A7F2E218A96B6*);
-	static TextMesh_set_font_m7E407CAEDBB382B95B70069D8FAB8A9E74EAAA74_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TextMesh_set_font_m7E407CAEDBB382B95B70069D8FAB8A9E74EAAA74_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextMesh::set_font(UnityEngine.Font)");
-	_il2cpp_icall_func(__this, ___value0);
-}
 // System.Int32 UnityEngine.TextMesh::get_fontSize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TextMesh_get_fontSize_m9D9DCB98FC5E439868F25A8CDA2A4F5C2D85985C (TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* __this, const RuntimeMethod* method) 
 {
