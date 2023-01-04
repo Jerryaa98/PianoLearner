@@ -7,6 +7,7 @@ using UnityEngine;
 public class ClickSong : MonoBehaviour
 {
     public string SongName;
+    public Material DefaultMaterial;
 
     List<SongNote> keysToPlay;
     List<PianoCube> objects = new List<PianoCube>();
@@ -19,6 +20,8 @@ public class ClickSong : MonoBehaviour
     float minTime;
     float keyFactor = 0.2f;
     float speed { get { return keyFactor / 4; } } 
+
+    List<SongNote> whiteKeys;
     
 
     void Start()
@@ -37,6 +40,9 @@ public class ClickSong : MonoBehaviour
         if (string.IsNullOrWhiteSpace(SongName))
         {
             return;
+        }
+        if(keysToPlay != null && keysToPlay.Any()) {
+            SetOriginalMaterial(keysToPlay);
         }
         keysToPlay = new List<SongNote>();
         if (objects.Any())
@@ -175,6 +181,7 @@ public class ClickSong : MonoBehaviour
         cube.transform.localPosition = new Vector3(x, distance, -(key.StartTime * keyFactor + (0.5f * key.Length*keyFactor)));
     }
 
+
     GameObject GetPianoKeyGO(SongNote currentKey)
     {
         return GameObject.Find($"{currentKey.Octave}/{currentKey.Note}/MovingKey");
@@ -184,9 +191,15 @@ public class ClickSong : MonoBehaviour
     {
         foreach (var key in keys)
         {
-            var interactable = GetPianoKeyGO(key).transform.parent.GetComponent<Interactable>();
-            interactable.Profiles[0].Themes[0] = key.OriginaTheme;
-            interactable.RefreshSetup();
+            var go = GetPianoKeyGO(key);
+            if(key.OriginlalMaterial != null){
+                go.GetComponent<MeshRenderer>().material = key.OriginlalMaterial;
+            }
+            if(key.OriginaTheme != null) {
+                var interactable = go.transform.parent.GetComponent<Interactable>();
+                interactable.Profiles[0].Themes[0] = key.OriginaTheme;
+                interactable.RefreshSetup();
+            }
         }
     }
 
@@ -194,7 +207,10 @@ public class ClickSong : MonoBehaviour
     {
         foreach (var key in keys)
         {
-            var interactable = GetPianoKeyGO(key).transform.parent.GetComponent<Interactable>();
+            var go = GetPianoKeyGO(key);
+            key.OriginlalMaterial = go.GetComponent<MeshRenderer>().material;
+            go.GetComponent<MeshRenderer>().material = DefaultMaterial;
+            var interactable = go.transform.parent.GetComponent<Interactable>();
             key.OriginaTheme = interactable.Profiles[0].Themes[0];
             var theme = Resources.Load<Theme>($"{interactable.Profiles[0].Themes[0].name}Click");
             interactable.Profiles[0].Themes[0] = theme;
@@ -231,5 +247,6 @@ public class ClickSong : MonoBehaviour
         public float EndTime { get; set; }
         public float Length { get { return EndTime - StartTime; } }
         public Theme OriginaTheme { get; set; }
+        public Material OriginlalMaterial {get;set;}
     }
 }
