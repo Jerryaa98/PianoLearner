@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 82
+  controlID: 58
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 355.19995
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 493.6
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,12 +120,12 @@ MonoBehaviour:
     y: 493.6
     width: 1180.8
     height: 229.19998
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 12}
+  - {fileID: 17}
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &6
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 83
+  controlID: 59
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 84
+  controlID: 50
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MRTK/SDK/Features/UX/Interactable/Materials
+    - Assets/Resources
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 44
   m_LastFolders:
-  - Assets/MRTK/SDK/Features/UX/Interactable/Materials
+  - Assets/Resources
   m_LastFoldersGridSize: 44
   m_LastProjectPath: E:\mrtkpiano
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1283.8}
-    m_SelectedIDs: fe000100
-    m_LastClickedID: 65790
-    m_ExpandedIDs: 000000003c9000003e90000040900000429000004490000046900000489000004a9000004c90000096f90000c4000100de240100e024010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 56900000
+    m_LastClickedID: 36950
+    m_ExpandedIDs: 00000000529000005490000056900000589000005a9000005c9000005e9000006090000062900000a4900000a6900000a890000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c9000003e90000040900000429000004490000046900000489000004a9000004c900000
+    m_ExpandedIDs: 00000000529000005490000056900000589000005a9000005c9000005e9000006090000062900000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 112.40001}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 44
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 304
@@ -488,23 +488,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 06010100
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: dc85ffffda86ffff389dffff869dffffe8a3fffff6afffff44b0ffffa4b6ffff0ebaffff5cbaffffbcc0ffff34c4ffff82c4ffffe2caffffb4ceffff06cfffff5cddffff2ce4ffff7ee4ffff58f3ffff30fbffff74d900007ad9000024e5000064e5000026e60000bce6000096e700009ae70000b2e7000024e900004ce90000aae90000b0e90000bce900004cea000078ea0000
+      m_ExpandedIDs: 3af7ffff30fbffff327700003e770000427700006e7700007477000084770000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: UIButtonSquareIcon
-        m_OriginalName: UIButtonSquareIcon
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 60092
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -772,9 +772,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.69095385, y: 0.2056005, z: 0.6503898}
+    m_Target: {x: -0.07547718, y: 0.13618794, z: 0.37711126}
     speed: 2
-    m_Value: {x: -0.69095385, y: 0.2056005, z: 0.6503898}
+    m_Value: {x: -0.07547718, y: 0.13618794, z: 0.37711126}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -821,13 +821,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.059364907, y: -0.009284335, z: -0.0005550021, w: 0.99820113}
+    m_Target: {x: 0.06645673, y: -0.05265997, z: 0.0035099967, w: 0.9964005}
     speed: 2
-    m_Value: {x: -0.059364427, y: -0.00928426, z: -0.0005549976, w: 0.998193}
+    m_Value: {x: 0.066456206, y: -0.052659556, z: 0.003509969, w: 0.9963926}
   m_Size:
-    m_Target: 0.07822419
+    m_Target: 0.08157875
     speed: 2
-    m_Value: 0.07822419
+    m_Value: 0.08157875
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -966,7 +966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 567.2
-    width: 1178.2
+    width: 1179.8
     height: 208.19998
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
