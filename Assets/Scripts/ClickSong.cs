@@ -181,6 +181,7 @@ public class ClickSong : MonoBehaviour
         cube.transform.localPosition = new Vector3(x, distance, -(key.StartTime * keyFactor + (0.5f * key.Length*keyFactor)));
     }
 
+
     GameObject GetPianoKeyGO(SongNote currentKey)
     {
         return GameObject.Find($"{currentKey.Octave}/{currentKey.Note}/MovingKey");
