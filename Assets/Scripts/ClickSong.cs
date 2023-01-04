@@ -144,7 +144,7 @@ public class ClickSong : MonoBehaviour
             }
         }
     }
-4
+
     void InstantiateKeys()
     {
         foreach (var key in keysToPlay)
