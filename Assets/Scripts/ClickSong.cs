@@ -3,6 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using Microsoft.MixedReality.Toolkit.UI;
 using UnityEngine;
+using System.Collections;
 
 public class ClickSong : MonoBehaviour
 {
@@ -18,11 +19,9 @@ public class ClickSong : MonoBehaviour
     float depth = 0.02f;
     float distance = 0.25f;
     float minTime;
-    float keyFactor = 0.2f;
+    float keyFactor = 0.8f;
     float speed { get { return keyFactor / 4; } } 
-
-    List<SongNote> whiteKeys;
-    
+    bool progress;
 
     void Start()
     {
@@ -101,14 +100,12 @@ public class ClickSong : MonoBehaviour
             minTime = keysToPlay.Where(k => k.StartTime > minTime).Min(k => k.StartTime);
             JumpKey();
 
-
             SetNewMaterial(keysToPlay.Where(k => k.StartTime == minTime));
         }
     }
 
     void JumpKey()
     {
-        float gap = ClickedNotes.FirstOrDefault()?.Note.StartTime ?? 0;
         foreach (var n in ClickedNotes)
         {
             var matchingObjectIndex = objects.FindIndex(o => o.Note == n.Note);
@@ -116,12 +113,6 @@ public class ClickSong : MonoBehaviour
             objects.RemoveAt(matchingObjectIndex);
         }
 
-        foreach (var obj in objects)
-        {
-            float x = GetCubeXPosition(obj);
-            obj.Cube.transform.localPosition = new Vector3(x, distance, -keyFactor*(obj.Note.StartTime - minTime + (0.5f * obj.Note.Length)));
-            obj.Position = obj.Cube.transform.localPosition;
-        }
         startTime = Time.time;
     }
 
@@ -132,26 +123,26 @@ public class ClickSong : MonoBehaviour
             return;
         }
 
-        var keyLength = objects.FirstOrDefault().Length;
-        var journeyLength = keyLength * keyFactor;
-        float distCovered = (Time.time - startTime) * speed;
-        float fractionOfJourney = distCovered / journeyLength;
-
-        foreach (var obj in objects)
+        foreach (var obj in objects.Where(o => !o.Destroyed))
         {
-            obj.Cube.transform.localPosition = Vector3.Lerp(obj.Position, obj.Position + new Vector3(0, 0, journeyLength), fractionOfJourney);
-            if (obj.Note.StartTime == minTime && fractionOfJourney > 1)
-            {
-                float x = GetCubeXPosition(obj);
-                obj.Cube.GetComponent<MeshRenderer>().material.color = Color.yellow;
-                obj.Cube.transform.localPosition = new Vector3(x, 0.25f, -obj.Length * 0.5f);
+            if(obj == objects.FirstOrDefault(o => !o.Destroyed)) {
+                progress = obj.Cube.transform.localPosition.z < obj.Note.Length * 0.2f;
+            }
+            if(progress) {
+                float journeyLength = (obj.Note.StartTime + obj.Note.Length) * keyFactor;
+                float distCovered = (Time.time - startTime) * speed;
+                float fractionOfJourney = distCovered / journeyLength;
+                obj.Cube.transform.localPosition = Vector3.Lerp(obj.Position, obj.Position + new Vector3(0, 0, journeyLength * 2), fractionOfJourney);
+                if(obj.Cube.transform.localPosition.z > obj.Note.Length / 2) {
+                    Destroy(obj.Cube);
+                    obj.Destroyed = true;
+                }
+            } else {
+                if(obj.Note.StartTime == minTime && obj.Cube.GetComponent<MeshRenderer>().material.color != Color.yellow) {
+                    obj.Cube.GetComponent<MeshRenderer>().material.color = Color.yellow;
+                }
             }
         }
-    }
-
-    float GetCubeXPosition(PianoCube obj)
-    {
-        return obj.Note.Note.Equals("f", StringComparison.InvariantCultureIgnoreCase) ? 0.04f : 0;
     }
 
     void InstantiateKeys()
@@ -164,7 +155,8 @@ public class ClickSong : MonoBehaviour
             cube.transform.parent = go.transform.parent;
             var length = key.Length * keyFactor;
             cube.transform.localScale = new Vector3(width, length, depth);
-            FixFKey(cube,key);
+            float x = key.Note.Equals("f", StringComparison.InvariantCultureIgnoreCase)? 0.04f : 0;
+            cube.transform.localPosition = new Vector3(x, distance, -(key.StartTime * keyFactor + (0.5f * key.Length*keyFactor)));
             objects.Add(new PianoCube
             {
                 Cube = cube,
@@ -174,13 +166,6 @@ public class ClickSong : MonoBehaviour
             });
         }
     }
-
-    void FixFKey(GameObject cube, SongNote key)
-    {
-        float x = key.Note.Equals("f", StringComparison.InvariantCultureIgnoreCase)? 0.04f : 0;
-        cube.transform.localPosition = new Vector3(x, distance, -(key.StartTime * keyFactor + (0.5f * key.Length*keyFactor)));
-    }
-
 
     GameObject GetPianoKeyGO(SongNote currentKey)
     {
@@ -237,6 +222,7 @@ public class ClickSong : MonoBehaviour
         public float Length;
         public Vector3 Position;
         public SongNote Note;
+        public bool Destroyed;
     }
 
     class SongNote
