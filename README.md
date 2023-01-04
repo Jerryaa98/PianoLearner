@@ -17,3 +17,6 @@ to do:-
 - [x] fix NULL bug on last keys
 - [x] set background
 - [ ] add menu for songs
+- [ ] fix translation axis and rotations
+- [ ] scaling the piano via buttons
+- [ ] make it so we can only move the whole piano and midi cubes together
