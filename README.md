@@ -9,14 +9,14 @@ to do:
 - [x] multi key functionality
 - [x] fix set material
 - [ ] multi finger collision
-- [ ] add songs
+- [x] add songs
 - [x] translate and move piano location via collision box
 - [x] fix F key bug
 - [x] cube multicolor
 - [ ] fix song continuity
 - [x] fix NULL bug on last keys
-- [ ] set background
-- [ ] set floor
+- [x] set background
+- [x] set floor
 - [x] add menu for songs
 - [x] fix translation axis and rotations
 - [x] scaling the piano via buttons
