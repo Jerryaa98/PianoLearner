@@ -183,6 +183,7 @@ public class ClickSong : MonoBehaviour
             if(key.OriginaTheme != null) {
                 var interactable = go.transform.parent.GetComponent<Interactable>();
                 interactable.Profiles[0].Themes[0] = key.OriginaTheme;
+                go.transform.localPosition = new Vector3(0,0,0);
                 interactable.RefreshSetup();
             }
         }
