@@ -1,13 +1,13 @@
 # mrtkpiano
 
-to do:-
+to do:
 - [x] create a scene
 - [x] import mrtk2 tooolkits and use features
 - [x] duplicate piano keys and update functionalities
 - [x] light up the keys via the csv files
 - [x] make cubes fall down on upcoming keys
 - [x] multi key functionality
-- [ ] fix set material
+- [x] fix set material
 - [ ] multi finger collision
 - [ ] add songs
 - [x] translate and move piano location via collision box
@@ -15,7 +15,8 @@ to do:-
 - [x] cube multicolor
 - [ ] fix song continuity
 - [x] fix NULL bug on last keys
-- [x] set background
+- [ ] set background
+- [ ] set floor
 - [x] add menu for songs
 - [x] fix translation axis and rotations
 - [x] scaling the piano via buttons
