@@ -8,12 +8,11 @@ to do:
 - [x] make cubes fall down on upcoming keys
 - [x] multi key functionality
 - [x] fix set material
-- [ ] multi finger collision
 - [x] add songs
 - [x] translate and move piano location via collision box
 - [x] fix F key bug
 - [x] cube multicolor
-- [ ] fix song continuity
+- [x] fix song continuity
 - [x] fix NULL bug on last keys
 - [x] set background
 - [x] set floor
@@ -21,3 +20,7 @@ to do:
 - [x] fix translation axis and rotations
 - [x] scaling the piano via buttons
 - [x] make it so we can only move the whole piano and midi cubes together
+- [x] fix song cubes to stop where it should be incase a block comes before the next
+- [ ] multi finger collision
+- [ ] add proper floor using mrtk cloning method
+- [ ] add proper background using mrtk cloning method
