@@ -1092,6 +1092,10 @@
       <Project>{AECB7AD5-EA7C-F4ED-123A-724AFBE86FDA}</Project>
       <Name>Oculus.Spatializer</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
+      <Project>{4BCFEBF6-463F-21FD-E973-CB8BA9247B3E}</Project>
+      <Name>Unity.XR.Management.Samples.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj">
       <Project>{041375CD-FF14-0B1B-ABD5-CA7300EFEC35}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor</Name>
@@ -1172,13 +1176,13 @@
       <Project>{0DF23A2C-1129-8BB5-32CA-9BEFFEAF8B29}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Gltf</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
+      <Project>{863AE3DF-652E-61C1-5A1D-28B860A2746C}</Project>
+      <Name>Unity.XR.Management.Samples</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.csproj">
       <Project>{A43B9380-A642-A605-F5DA-3545D9210E30}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="VoiceSDK.Dictation.Runtime.csproj">
-      <Project>{9FD22ACD-E70A-56FE-DBC2-26252CD07E11}</Project>
-      <Name>VoiceSDK.Dictation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.Samples.csproj">
       <Project>{0864B6AB-7CDF-A3EE-1982-FBAC8AC3B3C6}</Project>
@@ -1204,6 +1208,10 @@
       <Project>{D8E3AC97-CFF7-192F-E654-8BC980187A87}</Project>
       <Name>Oculus.LipSync</Name>
     </ProjectReference>
+    <ProjectReference Include="VoiceSDK.Dictation.Runtime.csproj">
+      <Project>{9FD22ACD-E70A-56FE-DBC2-26252CD07E11}</Project>
+      <Name>VoiceSDK.Dictation.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj">
       <Project>{E039A67B-82E3-F75E-71D1-04590D3B50BD}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Gltf.Importers</Name>
@@ -1219,14 +1227,6 @@
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj">
       <Project>{86C63FB4-4842-8CFD-D273-77C5D35C4DC3}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
-      <Project>{863AE3DF-652E-61C1-5A1D-28B860A2746C}</Project>
-      <Name>Unity.XR.Management.Samples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
-      <Project>{4BCFEBF6-463F-21FD-E973-CB8BA9247B3E}</Project>
-      <Name>Unity.XR.Management.Samples.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
