@@ -10,6 +10,7 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
     [AddComponentMenu("Scripts/MRTK/Examples/ShowSliderValue")]
     public class ShowSliderValue : MonoBehaviour
     {
+        public float speed;
         [SerializeField]
         private TextMeshPro textMesh = null;
 
@@ -22,7 +23,8 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
 
             if (textMesh != null)
             {
-                textMesh.text = $"{eventData.NewValue:F2*2f}";
+                textMesh.text = $"{eventData.NewValue*2f:F2}";
+                speed = eventData.NewValue*2f;
             }
         }
     }

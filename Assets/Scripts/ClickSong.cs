@@ -9,7 +9,9 @@ public class ClickSong : MonoBehaviour
 {
     public string SongName;
     public Material DefaultMaterial;
-
+    public float songSpeed = 1f;
+    public GameObject redVal;
+    
     List<SongNote> keysToPlay;
     List<PianoCube> objects = new List<PianoCube>();
     List<ClickedNote> ClickedNotes;
@@ -22,6 +24,7 @@ public class ClickSong : MonoBehaviour
     float keyFactor = 0.8f;
     float speed { get { return keyFactor / 4; } }
     bool progress;
+
 
     void Start()
     {
@@ -124,6 +127,12 @@ public class ClickSong : MonoBehaviour
 
     void Update()
     {
+        songSpeed = redVal.GetComponent<float>();
+
+        if( songSpeed == null){
+            songSpeed = 1f;
+        }
+
         if (!objects.Any())
         {
             return;
@@ -147,7 +156,8 @@ public class ClickSong : MonoBehaviour
                 float journeyLength = (obj.EndPosition - obj.StartPosition).magnitude;
                 float distCovered = (Time.time - startTime) * speed;
                 float fractionOfJourney = distCovered / journeyLength;
-                obj.Cube.transform.localPosition = Vector3.Lerp(obj.StartPosition, obj.EndPosition, fractionOfJourney*2);
+                obj.Cube.transform.localPosition = Vector3.Lerp(obj.StartPosition, obj.EndPosition, fractionOfJourney*songSpeed);
+                Debug.Log($"songSpeed is {songSpeed}");
                 if (obj.Cube.transform.localPosition.z > obj.Note.Length / 2)
                 {
                     Destroy(obj.Cube);
