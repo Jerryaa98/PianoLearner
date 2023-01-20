@@ -11,6 +11,7 @@ public class ClickSong : MonoBehaviour
     public Material DefaultMaterial;
     public GameObject Slider;
     
+    List<SongNote> allPianoKeys;
     List<SongNote> keysToPlay;
     List<PianoCube> objects = new List<PianoCube>();
     List<ClickedNote> ClickedNotes;
@@ -24,10 +25,30 @@ public class ClickSong : MonoBehaviour
     float speed { get { return keyFactor / 4; } }
     bool progress;
     float songSpeed = 1f;
+    int frames = 0;
 
     void Start()
     {
+        InitiateAllKeysList();
         StartSong();
+    }
+
+    void InitiateAllKeysList()
+    {
+        allPianoKeys = new List<SongNote>();
+        var tmpasset = Resources.Load<TextAsset>($"Songs/AllKeys");
+        string[] lines = tmpasset.text.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+        foreach (var line in lines)
+        {
+            string[] split = line.Trim().Split(',');
+            allPianoKeys.Add(new SongNote
+            {
+                Octave = split[0],
+                Note = split[1],
+                StartTime = float.Parse(split[2]),
+                EndTime = float.Parse(split[3])
+            });
+        }
     }
 
     public void SetSongAndStart(string songName)
@@ -36,9 +57,8 @@ public class ClickSong : MonoBehaviour
         StartSong();
     }
 
-    public void SetSongSpeed(SliderEventData data){
-
-        Debug.Log(data.NewValue*2f);
+    public void SetSongSpeed(SliderEventData data)
+    {
         songSpeed = data.NewValue*2f;
     }
 
@@ -132,6 +152,14 @@ public class ClickSong : MonoBehaviour
 
     void Update()
     {
+        frames ++;
+        if(frames % 600 == 0){
+            frames = 0;
+            foreach (var obj in allPianoKeys){
+                var rightKey = GetPianoKeyGO(obj);
+                rightKey.transform.localPosition = new Vector3(0, 0, 0);
+            }
+        }
         if (!objects.Any())
         {
             return;
