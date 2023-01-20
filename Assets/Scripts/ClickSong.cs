@@ -9,8 +9,7 @@ public class ClickSong : MonoBehaviour
 {
     public string SongName;
     public Material DefaultMaterial;
-    public float songSpeed = 1f;
-    public GameObject redVal;
+    public GameObject Slider;
     
     List<SongNote> keysToPlay;
     List<PianoCube> objects = new List<PianoCube>();
@@ -24,7 +23,7 @@ public class ClickSong : MonoBehaviour
     float keyFactor = 0.8f;
     float speed { get { return keyFactor / 4; } }
     bool progress;
-
+    float songSpeed = 1f;
 
     void Start()
     {
@@ -35,6 +34,12 @@ public class ClickSong : MonoBehaviour
     {
         SongName = songName;
         StartSong();
+    }
+
+    public void SetSongSpeed(SliderEventData data){
+
+        Debug.Log(data.NewValue*2f);
+        songSpeed = data.NewValue*2f;
     }
 
     public void StartSong()
@@ -127,12 +132,6 @@ public class ClickSong : MonoBehaviour
 
     void Update()
     {
-        songSpeed = redVal.GetComponent<float>();
-
-        if( songSpeed == null){
-            songSpeed = 1f;
-        }
-
         if (!objects.Any())
         {
             return;
@@ -147,17 +146,15 @@ public class ClickSong : MonoBehaviour
             else if (obj.Cube.transform.localPosition.z > obj.Note.Length * 0.2f)
             {
                 progress = false;
-                
                 obj.Cube.GetComponent<MeshRenderer>().material.color = Color.yellow;
-                
             }
+            ToggleSlider();
             if (progress)
             {
                 float journeyLength = (obj.EndPosition - obj.StartPosition).magnitude;
-                float distCovered = (Time.time - startTime) * speed;
+                float distCovered = (Time.time - startTime) * speed * songSpeed;
                 float fractionOfJourney = distCovered / journeyLength;
-                obj.Cube.transform.localPosition = Vector3.Lerp(obj.StartPosition, obj.EndPosition, fractionOfJourney*songSpeed);
-                Debug.Log($"songSpeed is {songSpeed}");
+                obj.Cube.transform.localPosition = Vector3.Lerp(obj.StartPosition, obj.EndPosition, fractionOfJourney);
                 if (obj.Cube.transform.localPosition.z > obj.Note.Length / 2)
                 {
                     Destroy(obj.Cube);
@@ -171,6 +168,16 @@ public class ClickSong : MonoBehaviour
                     obj.Cube.GetComponent<MeshRenderer>().material.color = Color.yellow;
                 }
             }
+        }
+    }
+
+    void ToggleSlider(){
+        var isActive = Slider.activeSelf;
+        if(progress && isActive){
+            Slider.SetActive(false);
+        }
+        if (!progress && !isActive){
+           Slider.SetActive(true);
         }
     }
 
