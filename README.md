@@ -24,3 +24,6 @@ to do:
 - [ ] multi finger collision
 - [ ] add proper floor using mrtk cloning method
 - [ ] add proper background using mrtk cloning method
+- [ ] make translating the piano easier(use a handle or teleportation)
+- [x] adjust speed of songs
+- [ ] chron job to fix piano keys
