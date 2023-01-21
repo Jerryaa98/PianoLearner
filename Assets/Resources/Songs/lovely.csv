@@ -18,7 +18,7 @@ Low,C,9,16
 Medium,D,15,18
 Medium,E,18,22
 Low,E,18,22
-Medium,Fsharp,22,24
+Medium,FSharp,22,24
 Low,B,22,26
 Medium,D,24,26
 Medium,E,26,32
@@ -30,4 +30,4 @@ Low,E,32,36
 Medium,B,32,37
 Low,B,36,40
 Medium,G,37,38
-Medium,Fsharp,38,40
+Medium,FSharp,38,40

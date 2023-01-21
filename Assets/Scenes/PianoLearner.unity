@@ -6319,7 +6319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e46061e8e5cf50e44bd4285977b7be96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SongName: AllKeys
+  SongName: song1
   DefaultMaterial: {fileID: 2100000, guid: 680505b4b4f3400f9fd3ebb242751819, type: 2}
   Slider: {fileID: 253175663}
 --- !u!114 &1727236852

@@ -26,5 +26,10 @@ to do:
 - [ ] add proper background using mrtk cloning method
 - [ ] make translating the piano easier(use a handle or teleportation)
 - [x] adjust speed of songs
-- [ ] cron job to fix piano keys (set all key positions to (0,0,0) every 3 seconds) if not seconds then use fps
 - [x] finish fps display
+- [ ] fix songs so they appear shorter
+- [ ] fix/change fly me to the moon
+- [x] fix/change baby shark
+- [x] fix/change lovely
+- [ ] fix/change ol mcdonald
+- [ ] fix/change jingle bells
