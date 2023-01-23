@@ -22,15 +22,15 @@ to do:
 - [x] make it so we can only move the whole piano and midi cubes together
 - [x] fix song cubes to stop where it should be incase a block comes before the next
 - [ ] multi finger collision
-- [ ] add proper floor using mrtk cloning method
-- [ ] add proper background using mrtk cloning method
-- [ ] make translating the piano easier(use a handle or teleportation)
+- [x] add proper floor using mrtk cloning method
+- [x] add proper background using mrtk cloning method
+- [x] make translating the piano easier(use a handle or teleportation)
 - [x] adjust speed of songs
 - [x] finish fps display
-- [ ] fix songs so they appear shorter
+- [x] fix songs so they appear shorter
 - [ ] fix/change fly me to the moon
 - [x] fix/change baby shark
 - [x] fix/change lovely
 - [ ] fix/change ol mcdonald
 - [ ] fix/change jingle bells
-- [ ] fix keys moving back to regular postions bug
+- [x] fix keys moving back to regular postions bug (partially)
