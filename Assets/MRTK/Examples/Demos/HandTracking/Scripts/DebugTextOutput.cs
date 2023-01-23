@@ -17,7 +17,7 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
             // Do something on specified distance for fire event
             if (textMesh != null)
             {
-                textMesh.text = $"{text} ({Time.unscaledTime.ToString()})";
+                textMesh.text = $"song played is {text}";
             }
         }
     }

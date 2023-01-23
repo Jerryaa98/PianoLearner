@@ -33,3 +33,4 @@ to do:
 - [x] fix/change lovely
 - [ ] fix/change ol mcdonald
 - [ ] fix/change jingle bells
+- [ ] fix keys moving back to regular postions bug
