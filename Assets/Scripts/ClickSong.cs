@@ -49,6 +49,21 @@ public class ClickSong : MonoBehaviour
                 EndTime = float.Parse(split[3])
             });
         }
+        // foreach (var key in allPianoKeys){
+        //     Debug.Log($"{key.Octave} {key.Note}");
+        // }
+    }
+
+    void FixPositionKeys(){
+        var objects = GameObject.FindGameObjectsWithTag("PianoKey");
+        var objectCount = objects.Length;
+        foreach (var obj in objects) {
+            Vector3 p = obj.transform.localPosition;
+            if(p.z != 0){
+                p.z = 0;
+                obj.transform.localPosition = p;
+            }
+        }
     }
 
     public void SetSongAndStart(string songName)
@@ -105,7 +120,11 @@ public class ClickSong : MonoBehaviour
 
     public void ClickKey(GameObject obj)
     {
-        if (litKey >= keysToPlay.Count)
+        if(keysToPlay == null){
+            return;
+        }
+
+        if (litKey >= keysToPlay.Count || keysToPlay.Count == 0)
         {
             return;
         }
@@ -154,11 +173,13 @@ public class ClickSong : MonoBehaviour
     {
         frames ++;
         if(frames % 600 == 0){
-            frames = 0;
-            foreach (var obj in allPianoKeys){
-                var rightKey = GetPianoKeyGO(obj);
-                rightKey.transform.localPosition = new Vector3(0, 0, 0);
-            }
+            // frames = 0;
+            // foreach (var obj in allPianoKeys){
+            //     var rightKey = GetPianoKeyGO(obj);
+            //     rightKey.transform.localPosition = new Vector3(0, 0, 0);
+            // }
+            FixPositionKeys();
+            Debug.Log("passed");
         }
         if (!objects.Any())
         {

@@ -1533,106 +1533,106 @@ extern void ClickSong_get_speed_m26E78E0981EF25207ABFF137160B7E65DA9C571D (void)
 extern void ClickSong_Start_mF019CF92F58EA94E744004651CC99A4CC103A317 (void);
 // 0x00000300 System.Void ClickSong::InitiateAllKeysList()
 extern void ClickSong_InitiateAllKeysList_m353CBD4D209E81A8235581A586F482E8232D92E2 (void);
-// 0x00000301 System.Void ClickSong::SetSongAndStart(System.String)
+// 0x00000301 System.Void ClickSong::FixPositionKeys()
+extern void ClickSong_FixPositionKeys_m428843499F8647DCD6F434D13B388F8D3EDA0C54 (void);
+// 0x00000302 System.Void ClickSong::SetSongAndStart(System.String)
 extern void ClickSong_SetSongAndStart_mD596F8A90D2D18335B833975B6F5C9E56A7ADD2F (void);
-// 0x00000302 System.Void ClickSong::SetSongSpeed(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
+// 0x00000303 System.Void ClickSong::SetSongSpeed(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
 extern void ClickSong_SetSongSpeed_mABCDEDA42DCADFA1316C5351A4E90FA4B4000D9B (void);
-// 0x00000303 System.Void ClickSong::StartSong()
+// 0x00000304 System.Void ClickSong::StartSong()
 extern void ClickSong_StartSong_mDDE3DBD6D73058103107740589834C86BDD57731 (void);
-// 0x00000304 System.Void ClickSong::ClickKey(UnityEngine.GameObject)
+// 0x00000305 System.Void ClickSong::ClickKey(UnityEngine.GameObject)
 extern void ClickSong_ClickKey_m9F6F54259B18B9EBCE35A5095381AD450F637193 (void);
-// 0x00000305 System.Void ClickSong::JumpKey()
+// 0x00000306 System.Void ClickSong::JumpKey()
 extern void ClickSong_JumpKey_mB23E4B143080080BEC03A5A723B5E3CA86D3D22A (void);
-// 0x00000306 System.Void ClickSong::Update()
+// 0x00000307 System.Void ClickSong::Update()
 extern void ClickSong_Update_mFEEA0E9983D51E4BC4A4E973EB223B1BD6C09A36 (void);
-// 0x00000307 System.Void ClickSong::ToggleSlider()
+// 0x00000308 System.Void ClickSong::ToggleSlider()
 extern void ClickSong_ToggleSlider_m788E53CD5921F2AFEA3F4E65FB9F6864AC0DEA31 (void);
-// 0x00000308 System.Void ClickSong::InstantiateKeys()
+// 0x00000309 System.Void ClickSong::InstantiateKeys()
 extern void ClickSong_InstantiateKeys_mF5C62205B19C4DE0BA9AC1BEBDFE8952FE3D584C (void);
-// 0x00000309 UnityEngine.GameObject ClickSong::GetPianoKeyGO(ClickSong/SongNote)
+// 0x0000030A UnityEngine.GameObject ClickSong::GetPianoKeyGO(ClickSong/SongNote)
 extern void ClickSong_GetPianoKeyGO_m06A84AF780CAE766786DB3A9E933774FF4209837 (void);
-// 0x0000030A System.Void ClickSong::SetOriginalMaterial(System.Collections.Generic.IEnumerable`1<ClickSong/SongNote>)
+// 0x0000030B System.Void ClickSong::SetOriginalMaterial(System.Collections.Generic.IEnumerable`1<ClickSong/SongNote>)
 extern void ClickSong_SetOriginalMaterial_m3C98F34B2C6462A72E470F11A0A4F0A199AC3C31 (void);
-// 0x0000030B System.Void ClickSong::SetNewMaterial(System.Collections.Generic.IEnumerable`1<ClickSong/SongNote>)
+// 0x0000030C System.Void ClickSong::SetNewMaterial(System.Collections.Generic.IEnumerable`1<ClickSong/SongNote>)
 extern void ClickSong_SetNewMaterial_mD7AF4A34203D1AF303CB1CB80297A260709FE079 (void);
-// 0x0000030C System.Void ClickSong::.ctor()
+// 0x0000030D System.Void ClickSong::.ctor()
 extern void ClickSong__ctor_m3C57D6325E80B6CCF80A1F81CEC148D44404A680 (void);
-// 0x0000030D System.Boolean ClickSong::<StartSong>b__23_2(ClickSong/SongNote)
-extern void ClickSong_U3CStartSongU3Eb__23_2_mB1CF766DD30A6F97165C435B171B0BC921E39AF7 (void);
-// 0x0000030E ClickSong/SongNote ClickSong/ClickedNote::get_Note()
+// 0x0000030E System.Boolean ClickSong::<StartSong>b__24_2(ClickSong/SongNote)
+extern void ClickSong_U3CStartSongU3Eb__24_2_m20DD5F2993913BCD7B3229B5A48BF6100E439414 (void);
+// 0x0000030F ClickSong/SongNote ClickSong/ClickedNote::get_Note()
 extern void ClickedNote_get_Note_mE582C572E4CE5B4365E2C315C55B660EC4E1E9A0 (void);
-// 0x0000030F System.Void ClickSong/ClickedNote::set_Note(ClickSong/SongNote)
+// 0x00000310 System.Void ClickSong/ClickedNote::set_Note(ClickSong/SongNote)
 extern void ClickedNote_set_Note_m2922465ED2ECB839580765331734953C7DA2EEE5 (void);
-// 0x00000310 System.Boolean ClickSong/ClickedNote::get_Clicked()
+// 0x00000311 System.Boolean ClickSong/ClickedNote::get_Clicked()
 extern void ClickedNote_get_Clicked_m9928AC28CF76875D14431E27226213D0E2C102DC (void);
-// 0x00000311 System.Void ClickSong/ClickedNote::set_Clicked(System.Boolean)
+// 0x00000312 System.Void ClickSong/ClickedNote::set_Clicked(System.Boolean)
 extern void ClickedNote_set_Clicked_mB63F386576BD1E5477D2079F7F7C765756ED76D1 (void);
-// 0x00000312 System.Void ClickSong/ClickedNote::.ctor()
+// 0x00000313 System.Void ClickSong/ClickedNote::.ctor()
 extern void ClickedNote__ctor_m444925FE35A115E3C3E6B706FCB559003DDDA555 (void);
-// 0x00000313 System.Void ClickSong/PianoCube::.ctor()
+// 0x00000314 System.Void ClickSong/PianoCube::.ctor()
 extern void PianoCube__ctor_m5BCC476FB0395C862E9409AFE32D4624BD853640 (void);
-// 0x00000314 System.String ClickSong/SongNote::get_Octave()
+// 0x00000315 System.String ClickSong/SongNote::get_Octave()
 extern void SongNote_get_Octave_m56123E0B164FB9E00EA6AC9DD5B4FAF343A149E0 (void);
-// 0x00000315 System.Void ClickSong/SongNote::set_Octave(System.String)
+// 0x00000316 System.Void ClickSong/SongNote::set_Octave(System.String)
 extern void SongNote_set_Octave_m908D667B5CC0E6A3A6B263D160EFED620D18A870 (void);
-// 0x00000316 System.String ClickSong/SongNote::get_Note()
+// 0x00000317 System.String ClickSong/SongNote::get_Note()
 extern void SongNote_get_Note_mDFBB7CD328DCC71EA2FE49D4EB9B7B0CBA6F2CFA (void);
-// 0x00000317 System.Void ClickSong/SongNote::set_Note(System.String)
+// 0x00000318 System.Void ClickSong/SongNote::set_Note(System.String)
 extern void SongNote_set_Note_m9CAEC27E3E2B7260FC668A8169C9DC55C3D8FE98 (void);
-// 0x00000318 System.Single ClickSong/SongNote::get_StartTime()
+// 0x00000319 System.Single ClickSong/SongNote::get_StartTime()
 extern void SongNote_get_StartTime_mE089018649F51F5C448DE1340E98CFB70321F2FA (void);
-// 0x00000319 System.Void ClickSong/SongNote::set_StartTime(System.Single)
+// 0x0000031A System.Void ClickSong/SongNote::set_StartTime(System.Single)
 extern void SongNote_set_StartTime_mADDF2198115F766981938AB7F5DCA91592CA81E1 (void);
-// 0x0000031A System.Single ClickSong/SongNote::get_EndTime()
+// 0x0000031B System.Single ClickSong/SongNote::get_EndTime()
 extern void SongNote_get_EndTime_m1CF6636A2C689FDC2B9D73E758FA971B5625CC08 (void);
-// 0x0000031B System.Void ClickSong/SongNote::set_EndTime(System.Single)
+// 0x0000031C System.Void ClickSong/SongNote::set_EndTime(System.Single)
 extern void SongNote_set_EndTime_m2258D237570809E5B94E3EAB6A70540759387DDC (void);
-// 0x0000031C System.Single ClickSong/SongNote::get_Length()
+// 0x0000031D System.Single ClickSong/SongNote::get_Length()
 extern void SongNote_get_Length_mAE47828439C73A4C0F7A4C4CA9CC0D7649DE5ED9 (void);
-// 0x0000031D Microsoft.MixedReality.Toolkit.UI.Theme ClickSong/SongNote::get_OriginaTheme()
+// 0x0000031E Microsoft.MixedReality.Toolkit.UI.Theme ClickSong/SongNote::get_OriginaTheme()
 extern void SongNote_get_OriginaTheme_m8B228BEA68B5DAA2FD010656DE277EE1E2FA0898 (void);
-// 0x0000031E System.Void ClickSong/SongNote::set_OriginaTheme(Microsoft.MixedReality.Toolkit.UI.Theme)
+// 0x0000031F System.Void ClickSong/SongNote::set_OriginaTheme(Microsoft.MixedReality.Toolkit.UI.Theme)
 extern void SongNote_set_OriginaTheme_m39FDF79876F2972AD21E06D961100E624D29EE73 (void);
-// 0x0000031F UnityEngine.Material ClickSong/SongNote::get_OriginlalMaterial()
+// 0x00000320 UnityEngine.Material ClickSong/SongNote::get_OriginlalMaterial()
 extern void SongNote_get_OriginlalMaterial_m714F1A89E01D236D76A7F3C38CAAEE978E082850 (void);
-// 0x00000320 System.Void ClickSong/SongNote::set_OriginlalMaterial(UnityEngine.Material)
+// 0x00000321 System.Void ClickSong/SongNote::set_OriginlalMaterial(UnityEngine.Material)
 extern void SongNote_set_OriginlalMaterial_m38142124F176B7130F9C3FD9AA9E4131A3528ADD (void);
-// 0x00000321 System.Void ClickSong/SongNote::.ctor()
+// 0x00000322 System.Void ClickSong/SongNote::.ctor()
 extern void SongNote__ctor_mB0EE6B38686AD3F468A96110EF565EA1BB5BC1CC (void);
-// 0x00000322 System.Void ClickSong/<>c::.cctor()
+// 0x00000323 System.Void ClickSong/<>c::.cctor()
 extern void U3CU3Ec__cctor_mC73432D934DB457CBD995BBD66852D1E15820AB3 (void);
-// 0x00000323 System.Void ClickSong/<>c::.ctor()
+// 0x00000324 System.Void ClickSong/<>c::.ctor()
 extern void U3CU3Ec__ctor_mC68F39247A9AC3A5526962BF3B043E51BE21BEF6 (void);
-// 0x00000324 System.Int32 ClickSong/<>c::<StartSong>b__23_0(ClickSong/SongNote,ClickSong/SongNote)
-extern void U3CU3Ec_U3CStartSongU3Eb__23_0_m9B23AFC8A62BE5E3D8D096C7BEEED275C599D35F (void);
-// 0x00000325 System.Single ClickSong/<>c::<StartSong>b__23_1(ClickSong/SongNote)
-extern void U3CU3Ec_U3CStartSongU3Eb__23_1_m4E88AF1D975F3579735D910E4FB4F99C7B3FE992 (void);
-// 0x00000326 System.Boolean ClickSong/<>c::<ClickKey>b__24_1(ClickSong/ClickedNote)
-extern void U3CU3Ec_U3CClickKeyU3Eb__24_1_m2C6050263BDDBC090B54F1F56C24B3D4B39CE75A (void);
-// 0x00000327 ClickSong/SongNote ClickSong/<>c::<ClickKey>b__24_2(ClickSong/ClickedNote)
-extern void U3CU3Ec_U3CClickKeyU3Eb__24_2_m5917C363D4D3544447C680CFAC091B1D174EB405 (void);
-// 0x00000328 System.Single ClickSong/<>c::<ClickKey>b__24_4(ClickSong/SongNote)
-extern void U3CU3Ec_U3CClickKeyU3Eb__24_4_m8FC64EFA6938A278F32DDFE6DBB4F62D62F59D0C (void);
-// 0x00000329 System.Boolean ClickSong/<>c::<Update>b__26_0(ClickSong/PianoCube)
-extern void U3CU3Ec_U3CUpdateU3Eb__26_0_m62D7E7D2F0B9F4BBFC0D23875490E44B968F1305 (void);
-// 0x0000032A System.Boolean ClickSong/<>c::<Update>b__26_1(ClickSong/PianoCube)
-extern void U3CU3Ec_U3CUpdateU3Eb__26_1_m1E862C4D0181A6C76F4B84F54C1547AC3A951C81 (void);
-// 0x0000032B System.Boolean ClickSong/<>c::<Update>b__26_2(ClickSong/PianoCube)
-extern void U3CU3Ec_U3CUpdateU3Eb__26_2_m228052DC8B22AEBE1E7B2540C00EF95F119D4D77 (void);
-// 0x0000032C ClickSong/ClickedNote ClickSong/<>c::<SetNewMaterial>b__31_0(ClickSong/SongNote)
-extern void U3CU3Ec_U3CSetNewMaterialU3Eb__31_0_mABE214E4EBACCF3D2B97024D976903B2AC4B3502 (void);
-// 0x0000032D System.Void ClickSong/<>c__DisplayClass24_0::.ctor()
-extern void U3CU3Ec__DisplayClass24_0__ctor_m9AA8399EB0002FEAFC29372C8E5C2629F5A223B7 (void);
-// 0x0000032E System.Boolean ClickSong/<>c__DisplayClass24_0::<ClickKey>b__0(ClickSong/ClickedNote)
-extern void U3CU3Ec__DisplayClass24_0_U3CClickKeyU3Eb__0_mA809F944670023D80137BA9C7088D89B1012BAAA (void);
-// 0x0000032F System.Boolean ClickSong/<>c__DisplayClass24_0::<ClickKey>b__3(ClickSong/SongNote)
-extern void U3CU3Ec__DisplayClass24_0_U3CClickKeyU3Eb__3_m40871E95978D8F223CDA0D904C3E4BE5BF02C8C8 (void);
-// 0x00000330 System.Boolean ClickSong/<>c__DisplayClass24_0::<ClickKey>b__5(ClickSong/SongNote)
-extern void U3CU3Ec__DisplayClass24_0_U3CClickKeyU3Eb__5_m6686F6C4C2086144302903C564A9956A5BECC83F (void);
-// 0x00000331 System.Void ClickSong/<>c__DisplayClass25_0::.ctor()
+// 0x00000325 System.Int32 ClickSong/<>c::<StartSong>b__24_0(ClickSong/SongNote,ClickSong/SongNote)
+extern void U3CU3Ec_U3CStartSongU3Eb__24_0_mBFCEC954A164A05F22D839BC70F3557A6B3E0807 (void);
+// 0x00000326 System.Single ClickSong/<>c::<StartSong>b__24_1(ClickSong/SongNote)
+extern void U3CU3Ec_U3CStartSongU3Eb__24_1_m543A9D5C09D1FCC0986BAC8417AB8235A7DE2589 (void);
+// 0x00000327 System.Boolean ClickSong/<>c::<ClickKey>b__25_1(ClickSong/ClickedNote)
+extern void U3CU3Ec_U3CClickKeyU3Eb__25_1_m6B967DBAD0092ACB9B6EBA53901D95D0D30B768F (void);
+// 0x00000328 ClickSong/SongNote ClickSong/<>c::<ClickKey>b__25_2(ClickSong/ClickedNote)
+extern void U3CU3Ec_U3CClickKeyU3Eb__25_2_m78D42FB78A2F7596F8906AEB047FEC659ED284CE (void);
+// 0x00000329 System.Single ClickSong/<>c::<ClickKey>b__25_4(ClickSong/SongNote)
+extern void U3CU3Ec_U3CClickKeyU3Eb__25_4_mDCA578D5A855D31BD2ABE2A4071B75A18A32C626 (void);
+// 0x0000032A System.Boolean ClickSong/<>c::<Update>b__27_0(ClickSong/PianoCube)
+extern void U3CU3Ec_U3CUpdateU3Eb__27_0_m6E722B38B50B484254DA516E2CF9FD10AAD420C5 (void);
+// 0x0000032B System.Boolean ClickSong/<>c::<Update>b__27_1(ClickSong/PianoCube)
+extern void U3CU3Ec_U3CUpdateU3Eb__27_1_mE5A8455B0FBC60D026B85BB560A67A865882CA8F (void);
+// 0x0000032C ClickSong/ClickedNote ClickSong/<>c::<SetNewMaterial>b__32_0(ClickSong/SongNote)
+extern void U3CU3Ec_U3CSetNewMaterialU3Eb__32_0_m363B16082EDEC42592FD1D82271390697E8F9578 (void);
+// 0x0000032D System.Void ClickSong/<>c__DisplayClass25_0::.ctor()
 extern void U3CU3Ec__DisplayClass25_0__ctor_m05EE921FFC7BB6F68928744C71280836DD048B3E (void);
-// 0x00000332 System.Boolean ClickSong/<>c__DisplayClass25_0::<JumpKey>b__0(ClickSong/PianoCube)
-extern void U3CU3Ec__DisplayClass25_0_U3CJumpKeyU3Eb__0_m795F9CEF1DA98DC1ABDC90C6653D4C2B352E0D5A (void);
+// 0x0000032E System.Boolean ClickSong/<>c__DisplayClass25_0::<ClickKey>b__0(ClickSong/ClickedNote)
+extern void U3CU3Ec__DisplayClass25_0_U3CClickKeyU3Eb__0_m4F5B2643B54111E9E6083D16A980E98F6B247B65 (void);
+// 0x0000032F System.Boolean ClickSong/<>c__DisplayClass25_0::<ClickKey>b__3(ClickSong/SongNote)
+extern void U3CU3Ec__DisplayClass25_0_U3CClickKeyU3Eb__3_m0B14434084BE2F8CE6320C0C4780E8B9367D97B7 (void);
+// 0x00000330 System.Boolean ClickSong/<>c__DisplayClass25_0::<ClickKey>b__5(ClickSong/SongNote)
+extern void U3CU3Ec__DisplayClass25_0_U3CClickKeyU3Eb__5_m4561B52DA99BB475CD5C51439539875DCC346BE0 (void);
+// 0x00000331 System.Void ClickSong/<>c__DisplayClass26_0::.ctor()
+extern void U3CU3Ec__DisplayClass26_0__ctor_mE6043B57CBB6A2AD39A23BB4F0C48854B6A078D5 (void);
+// 0x00000332 System.Boolean ClickSong/<>c__DisplayClass26_0::<JumpKey>b__0(ClickSong/PianoCube)
+extern void U3CU3Ec__DisplayClass26_0_U3CJumpKeyU3Eb__0_mC6CFB2D57EFC7C722CBA5C4B72ACDC57F1BE2271 (void);
 // 0x00000333 System.Void FPSDisplay::Update()
 extern void FPSDisplay_Update_m8B6E3C4F736611F6AD8236A39F60249C3441A5FA (void);
 // 0x00000334 System.Void FPSDisplay::.ctor()
@@ -3301,6 +3301,7 @@ static Il2CppMethodPointer s_methodPointers[1277] =
 	ClickSong_get_speed_m26E78E0981EF25207ABFF137160B7E65DA9C571D,
 	ClickSong_Start_mF019CF92F58EA94E744004651CC99A4CC103A317,
 	ClickSong_InitiateAllKeysList_m353CBD4D209E81A8235581A586F482E8232D92E2,
+	ClickSong_FixPositionKeys_m428843499F8647DCD6F434D13B388F8D3EDA0C54,
 	ClickSong_SetSongAndStart_mD596F8A90D2D18335B833975B6F5C9E56A7ADD2F,
 	ClickSong_SetSongSpeed_mABCDEDA42DCADFA1316C5351A4E90FA4B4000D9B,
 	ClickSong_StartSong_mDDE3DBD6D73058103107740589834C86BDD57731,
@@ -3313,7 +3314,7 @@ static Il2CppMethodPointer s_methodPointers[1277] =
 	ClickSong_SetOriginalMaterial_m3C98F34B2C6462A72E470F11A0A4F0A199AC3C31,
 	ClickSong_SetNewMaterial_mD7AF4A34203D1AF303CB1CB80297A260709FE079,
 	ClickSong__ctor_m3C57D6325E80B6CCF80A1F81CEC148D44404A680,
-	ClickSong_U3CStartSongU3Eb__23_2_mB1CF766DD30A6F97165C435B171B0BC921E39AF7,
+	ClickSong_U3CStartSongU3Eb__24_2_m20DD5F2993913BCD7B3229B5A48BF6100E439414,
 	ClickedNote_get_Note_mE582C572E4CE5B4365E2C315C55B660EC4E1E9A0,
 	ClickedNote_set_Note_m2922465ED2ECB839580765331734953C7DA2EEE5,
 	ClickedNote_get_Clicked_m9928AC28CF76875D14431E27226213D0E2C102DC,
@@ -3336,21 +3337,20 @@ static Il2CppMethodPointer s_methodPointers[1277] =
 	SongNote__ctor_mB0EE6B38686AD3F468A96110EF565EA1BB5BC1CC,
 	U3CU3Ec__cctor_mC73432D934DB457CBD995BBD66852D1E15820AB3,
 	U3CU3Ec__ctor_mC68F39247A9AC3A5526962BF3B043E51BE21BEF6,
-	U3CU3Ec_U3CStartSongU3Eb__23_0_m9B23AFC8A62BE5E3D8D096C7BEEED275C599D35F,
-	U3CU3Ec_U3CStartSongU3Eb__23_1_m4E88AF1D975F3579735D910E4FB4F99C7B3FE992,
-	U3CU3Ec_U3CClickKeyU3Eb__24_1_m2C6050263BDDBC090B54F1F56C24B3D4B39CE75A,
-	U3CU3Ec_U3CClickKeyU3Eb__24_2_m5917C363D4D3544447C680CFAC091B1D174EB405,
-	U3CU3Ec_U3CClickKeyU3Eb__24_4_m8FC64EFA6938A278F32DDFE6DBB4F62D62F59D0C,
-	U3CU3Ec_U3CUpdateU3Eb__26_0_m62D7E7D2F0B9F4BBFC0D23875490E44B968F1305,
-	U3CU3Ec_U3CUpdateU3Eb__26_1_m1E862C4D0181A6C76F4B84F54C1547AC3A951C81,
-	U3CU3Ec_U3CUpdateU3Eb__26_2_m228052DC8B22AEBE1E7B2540C00EF95F119D4D77,
-	U3CU3Ec_U3CSetNewMaterialU3Eb__31_0_mABE214E4EBACCF3D2B97024D976903B2AC4B3502,
-	U3CU3Ec__DisplayClass24_0__ctor_m9AA8399EB0002FEAFC29372C8E5C2629F5A223B7,
-	U3CU3Ec__DisplayClass24_0_U3CClickKeyU3Eb__0_mA809F944670023D80137BA9C7088D89B1012BAAA,
-	U3CU3Ec__DisplayClass24_0_U3CClickKeyU3Eb__3_m40871E95978D8F223CDA0D904C3E4BE5BF02C8C8,
-	U3CU3Ec__DisplayClass24_0_U3CClickKeyU3Eb__5_m6686F6C4C2086144302903C564A9956A5BECC83F,
+	U3CU3Ec_U3CStartSongU3Eb__24_0_mBFCEC954A164A05F22D839BC70F3557A6B3E0807,
+	U3CU3Ec_U3CStartSongU3Eb__24_1_m543A9D5C09D1FCC0986BAC8417AB8235A7DE2589,
+	U3CU3Ec_U3CClickKeyU3Eb__25_1_m6B967DBAD0092ACB9B6EBA53901D95D0D30B768F,
+	U3CU3Ec_U3CClickKeyU3Eb__25_2_m78D42FB78A2F7596F8906AEB047FEC659ED284CE,
+	U3CU3Ec_U3CClickKeyU3Eb__25_4_mDCA578D5A855D31BD2ABE2A4071B75A18A32C626,
+	U3CU3Ec_U3CUpdateU3Eb__27_0_m6E722B38B50B484254DA516E2CF9FD10AAD420C5,
+	U3CU3Ec_U3CUpdateU3Eb__27_1_mE5A8455B0FBC60D026B85BB560A67A865882CA8F,
+	U3CU3Ec_U3CSetNewMaterialU3Eb__32_0_m363B16082EDEC42592FD1D82271390697E8F9578,
 	U3CU3Ec__DisplayClass25_0__ctor_m05EE921FFC7BB6F68928744C71280836DD048B3E,
-	U3CU3Ec__DisplayClass25_0_U3CJumpKeyU3Eb__0_m795F9CEF1DA98DC1ABDC90C6653D4C2B352E0D5A,
+	U3CU3Ec__DisplayClass25_0_U3CClickKeyU3Eb__0_m4F5B2643B54111E9E6083D16A980E98F6B247B65,
+	U3CU3Ec__DisplayClass25_0_U3CClickKeyU3Eb__3_m0B14434084BE2F8CE6320C0C4780E8B9367D97B7,
+	U3CU3Ec__DisplayClass25_0_U3CClickKeyU3Eb__5_m4561B52DA99BB475CD5C51439539875DCC346BE0,
+	U3CU3Ec__DisplayClass26_0__ctor_mE6043B57CBB6A2AD39A23BB4F0C48854B6A078D5,
+	U3CU3Ec__DisplayClass26_0_U3CJumpKeyU3Eb__0_mC6CFB2D57EFC7C722CBA5C4B72ACDC57F1BE2271,
 	FPSDisplay_Update_m8B6E3C4F736611F6AD8236A39F60249C3441A5FA,
 	FPSDisplay__ctor_m0B1B2DD1E7437715DA0BFB0AF80202D2A575E1E0,
 	ResizingScript_SizeUp_mE947578B504B934A9D110A65902B986BE82C3693,
@@ -4581,6 +4581,7 @@ static const int32_t s_InvokerIndices[1277] =
 	6791,
 	6864,
 	6864,
+	6864,
 	5545,
 	5545,
 	6864,
@@ -4621,7 +4622,6 @@ static const int32_t s_InvokerIndices[1277] =
 	4015,
 	4951,
 	5041,
-	4015,
 	4015,
 	4015,
 	4951,

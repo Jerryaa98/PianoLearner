@@ -10939,39 +10939,37 @@ struct U3CU3Ec_t2A6AC67FF24A022D16C8FC5AEF809E8C4A16AF5B_StaticFields
 {
 	// ClickSong/<>c ClickSong/<>c::<>9
 	U3CU3Ec_t2A6AC67FF24A022D16C8FC5AEF809E8C4A16AF5B* ___U3CU3E9_0;
-	// System.Comparison`1<ClickSong/SongNote> ClickSong/<>c::<>9__23_0
-	Comparison_1_tF38B75D0412166252DA45A1466B3CE1A3E6C98D6* ___U3CU3E9__23_0_1;
-	// System.Func`2<ClickSong/SongNote,System.Single> ClickSong/<>c::<>9__23_1
-	Func_2_t1ED8BEF20B75B54E754B98D71BFCB8E3C1409AA7* ___U3CU3E9__23_1_2;
-	// System.Func`2<ClickSong/ClickedNote,System.Boolean> ClickSong/<>c::<>9__24_1
-	Func_2_t41B6C09117C4767C0E48819834335BF2BA5071C0* ___U3CU3E9__24_1_3;
-	// System.Func`2<ClickSong/ClickedNote,ClickSong/SongNote> ClickSong/<>c::<>9__24_2
-	Func_2_t8985FB4AA3A11F9A141FF26DB41699079C8023FF* ___U3CU3E9__24_2_4;
-	// System.Func`2<ClickSong/SongNote,System.Single> ClickSong/<>c::<>9__24_4
-	Func_2_t1ED8BEF20B75B54E754B98D71BFCB8E3C1409AA7* ___U3CU3E9__24_4_5;
-	// System.Func`2<ClickSong/PianoCube,System.Boolean> ClickSong/<>c::<>9__26_0
-	Func_2_tA8C63A95E494A9472EA846E0CAB5A786B16DAE99* ___U3CU3E9__26_0_6;
-	// System.Func`2<ClickSong/PianoCube,System.Boolean> ClickSong/<>c::<>9__26_1
-	Func_2_tA8C63A95E494A9472EA846E0CAB5A786B16DAE99* ___U3CU3E9__26_1_7;
-	// System.Func`2<ClickSong/PianoCube,System.Boolean> ClickSong/<>c::<>9__26_2
-	Func_2_tA8C63A95E494A9472EA846E0CAB5A786B16DAE99* ___U3CU3E9__26_2_8;
-	// System.Func`2<ClickSong/SongNote,ClickSong/ClickedNote> ClickSong/<>c::<>9__31_0
-	Func_2_tF3CD65EF40943DE44A5424A043089B4AF3E6D781* ___U3CU3E9__31_0_9;
-};
-
-// ClickSong/<>c__DisplayClass24_0
-struct U3CU3Ec__DisplayClass24_0_t639F6F6BB8F5C4348529EAAC9618FB77082DEB56  : public RuntimeObject
-{
-	// UnityEngine.GameObject ClickSong/<>c__DisplayClass24_0::obj
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_0;
-	// ClickSong ClickSong/<>c__DisplayClass24_0::<>4__this
-	ClickSong_t89302CB1467CF7FC1ADF3E3E4746FA53E3B36F64* ___U3CU3E4__this_1;
+	// System.Comparison`1<ClickSong/SongNote> ClickSong/<>c::<>9__24_0
+	Comparison_1_tF38B75D0412166252DA45A1466B3CE1A3E6C98D6* ___U3CU3E9__24_0_1;
+	// System.Func`2<ClickSong/SongNote,System.Single> ClickSong/<>c::<>9__24_1
+	Func_2_t1ED8BEF20B75B54E754B98D71BFCB8E3C1409AA7* ___U3CU3E9__24_1_2;
+	// System.Func`2<ClickSong/ClickedNote,System.Boolean> ClickSong/<>c::<>9__25_1
+	Func_2_t41B6C09117C4767C0E48819834335BF2BA5071C0* ___U3CU3E9__25_1_3;
+	// System.Func`2<ClickSong/ClickedNote,ClickSong/SongNote> ClickSong/<>c::<>9__25_2
+	Func_2_t8985FB4AA3A11F9A141FF26DB41699079C8023FF* ___U3CU3E9__25_2_4;
+	// System.Func`2<ClickSong/SongNote,System.Single> ClickSong/<>c::<>9__25_4
+	Func_2_t1ED8BEF20B75B54E754B98D71BFCB8E3C1409AA7* ___U3CU3E9__25_4_5;
+	// System.Func`2<ClickSong/PianoCube,System.Boolean> ClickSong/<>c::<>9__27_0
+	Func_2_tA8C63A95E494A9472EA846E0CAB5A786B16DAE99* ___U3CU3E9__27_0_6;
+	// System.Func`2<ClickSong/PianoCube,System.Boolean> ClickSong/<>c::<>9__27_1
+	Func_2_tA8C63A95E494A9472EA846E0CAB5A786B16DAE99* ___U3CU3E9__27_1_7;
+	// System.Func`2<ClickSong/SongNote,ClickSong/ClickedNote> ClickSong/<>c::<>9__32_0
+	Func_2_tF3CD65EF40943DE44A5424A043089B4AF3E6D781* ___U3CU3E9__32_0_8;
 };
 
 // ClickSong/<>c__DisplayClass25_0
 struct U3CU3Ec__DisplayClass25_0_tFA42363F82FFF15B7C681899C9332ED7B8E307F7  : public RuntimeObject
 {
-	// ClickSong/ClickedNote ClickSong/<>c__DisplayClass25_0::n
+	// UnityEngine.GameObject ClickSong/<>c__DisplayClass25_0::obj
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_0;
+	// ClickSong ClickSong/<>c__DisplayClass25_0::<>4__this
+	ClickSong_t89302CB1467CF7FC1ADF3E3E4746FA53E3B36F64* ___U3CU3E4__this_1;
+};
+
+// ClickSong/<>c__DisplayClass26_0
+struct U3CU3Ec__DisplayClass26_0_t64E68EDF34A8E48FEF009ADD5B0D72043DD9A091  : public RuntimeObject
+{
+	// ClickSong/ClickedNote ClickSong/<>c__DisplayClass26_0::n
 	ClickedNote_tD5F3134F999988E0BFEEDE29A6BE177A5FCB85DA* ___n_0;
 };
 
@@ -54816,9 +54814,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize7268 = { sizeof(SongNote_t2D
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7269;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7269 = { sizeof(U3CU3Ec_t2A6AC67FF24A022D16C8FC5AEF809E8C4A16AF5B), -1, sizeof(U3CU3Ec_t2A6AC67FF24A022D16C8FC5AEF809E8C4A16AF5B_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7270;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize7270 = { sizeof(U3CU3Ec__DisplayClass24_0_t639F6F6BB8F5C4348529EAAC9618FB77082DEB56), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize7270 = { sizeof(U3CU3Ec__DisplayClass25_0_tFA42363F82FFF15B7C681899C9332ED7B8E307F7), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7271;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize7271 = { sizeof(U3CU3Ec__DisplayClass25_0_tFA42363F82FFF15B7C681899C9332ED7B8E307F7), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize7271 = { sizeof(U3CU3Ec__DisplayClass26_0_t64E68EDF34A8E48FEF009ADD5B0D72043DD9A091), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7272;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7272 = { sizeof(ClickSong_t89302CB1467CF7FC1ADF3E3E4746FA53E3B36F64), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7273;
