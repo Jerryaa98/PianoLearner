@@ -49,9 +49,6 @@ public class ClickSong : MonoBehaviour
                 EndTime = float.Parse(split[3])
             });
         }
-        // foreach (var key in allPianoKeys){
-        //     Debug.Log($"{key.Octave} {key.Note}");
-        // }
     }
 
     void FixPositionKeys(){
@@ -173,13 +170,7 @@ public class ClickSong : MonoBehaviour
     {
         frames ++;
         if(frames % 600 == 0){
-            // frames = 0;
-            // foreach (var obj in allPianoKeys){
-            //     var rightKey = GetPianoKeyGO(obj);
-            //     rightKey.transform.localPosition = new Vector3(0, 0, 0);
-            // }
             FixPositionKeys();
-            Debug.Log("passed");
         }
         if (!objects.Any())
         {
