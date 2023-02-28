@@ -20,10 +20,10 @@ public class Khabet : MonoBehaviour
            other.gameObject.name == "Left RingTip" ||
            other.gameObject.name == "Left PinkyTip" ||
            other.gameObject.name == "Right ThumbTip" ||
-           other.gameObject.name == "Right ThumbTip" ||
-           other.gameObject.name == "Right ThumbTip" ||
-           other.gameObject.name == "Right ThumbTip" ||
-           other.gameObject.name == "Right ThumbTip"){
+           other.gameObject.name == "Right IndexTip" ||
+           other.gameObject.name == "Right MiddleTip" ||
+           other.gameObject.name == "Right RingTip" ||
+           other.gameObject.name == "Right PinkyTip"){
 
             // Debug.Log($"Object Being hit: {currentObject} Hit by: {other.gameObject.name} {Time.time}" );
             buttonTouched.Invoke();
@@ -32,5 +32,14 @@ public class Khabet : MonoBehaviour
             p.z = 0.0222f;
             moveKey.transform.localPosition = p;
         } 
+    }
+
+    private void OnCollisionExit(Collision other)
+    {
+        // Debug.Log("No longer in contact with " + other.transform.name);
+        GameObject moveKey = currentObject.transform.GetChild(0).gameObject;
+        Vector3 p = moveKey.transform.localPosition;
+        p.z = 0f;
+        moveKey.transform.localPosition = p;
     }
 }
