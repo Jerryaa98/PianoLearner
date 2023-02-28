@@ -123,6 +123,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!82 &33675360 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8066092382426341594, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &55726642
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538900}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &187731120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538904}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 580273361}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538904}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &198355720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1007,6 +1068,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: {fileID: 1727236848}
+--- !u!54 &221061752
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962233}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!82 &238384796 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7479136072815002425, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &253175663 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5928312515760230136, guid: 1093263a89abe47499cccf7dcb08effb, type: 3}
@@ -1017,6 +1099,67 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6612129246983418044, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &268649805 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6548836070132999300, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &268649809
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268649801}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &268649810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268649801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 268649801}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 268649805}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 268649801}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &270130273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,6 +1208,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1576285670}
+--- !u!82 &276492436 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82230964513154690, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &276501863 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4930883351300376085, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &279960093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2895,6 +3048,83 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4265927988951819214, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &287087119 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4184615732366981110, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &287087123
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287087115}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &287087124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287087115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 287087115}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 287087119}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 287087115}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!54 &296011479
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962230}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &303758513
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,6 +3306,72 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!82 &327834868 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2283423397975083161, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &468897439
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538904}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &497792484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962230}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 276501863}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962230}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &524659831 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1862265188072891760, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &524910729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3178,6 +3474,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 670190173264333139, guid: df163d7030fc9c443b347acd2088480a, type: 3}
   m_PrefabInstance: {fileID: 524910729}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &529547954 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8166126010500086798, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &571365495 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4505189981193056502, guid: d82e2f09994ad2f4fb43359bfb977f64, type: 3}
@@ -3201,15 +3502,147 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piano: {fileID: 1727236848}
+--- !u!82 &580273361 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6548836070132999300, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &585413952 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8102762319430248502, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &585413956 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8166126010500086798, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &585413960
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585413952}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &585413961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585413952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 585413952}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 585413956}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 585413952}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &675084691 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7415767846259709697, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &675084695 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7479136072815002425, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &675084699
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675084691}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &675084700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675084691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 675084691}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 675084695}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 675084691}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &695106578 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8066092382426341594, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &735894440
 GameObject:
@@ -3256,6 +3689,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &736564846
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538896}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!95 &744681970 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 7307063430522344681, guid: 1093263a89abe47499cccf7dcb08effb, type: 3}
@@ -3282,7 +3731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4326490268959450, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.267
+      value: -0.2669
       objectReference: {fileID: 0}
     - target: {fileID: 4326490268959450, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4395,11 +4844,194 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1415696361206458, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 765538894}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &765538911 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3620647763461026099, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &765538915
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538903}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &765538916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538903}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 765538911}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538903}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &859495215 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82230964513154690, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &859495219
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538907}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &859495220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538907}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 859495215}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538907}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &886227762 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4994253914246582829, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &886227766 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4930883351300376085, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &886227770
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886227762}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &886227771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886227762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 886227762}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 886227766}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 886227762}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &951962226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4421,7 +5053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4326490268959450, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.237
+      value: 0.238
       objectReference: {fileID: 0}
     - target: {fileID: 4326490268959450, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5534,6 +6166,367 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1415696361206458, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 951962226}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &951962243 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3620647763461026099, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &951962247
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962235}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &951962248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962235}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 951962243}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962235}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &976517841 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4184615732366981110, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &976517845
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538899}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &976517846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538899}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 976517841}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538899}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!54 &980858777
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538901}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &980858778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538901}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 695106578}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538901}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &992356823 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4184615732366981110, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &992356827
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962231}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &992356828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962231}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 992356823}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962231}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &1005431674 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 520095234859013603, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1005431678
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538902}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1005431679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538902}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1005431674}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538902}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &1008815402 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7878444197271068688, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1008815406
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538897}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1008815407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538897}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1008815402}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538897}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1035707297
 GameObject:
   m_ObjectHideFlags: 0
@@ -5566,11 +6559,194 @@ Transform:
   m_Father: {fileID: 1428262891}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1066331916 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1862265188072891760, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1066331920
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538905}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1066331921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538905}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1066331916}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538905}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &1090241877 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6548836070132999300, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1090241881
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962236}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1090241882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962236}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1090241877}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962236}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1102708292 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7815144415109084200, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1102708296 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7878444197271068688, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1102708300
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102708292}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1102708301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102708292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 1102708292}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1102708296}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1102708292}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1117959726
 GameObject:
   m_ObjectHideFlags: 0
@@ -6184,11 +7360,173 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1799534824634528072, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1168320089 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1862265188072891760, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1168320093
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168320085}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1168320094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168320085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 1168320085}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1168320089}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1168320085}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1208106251 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4326490268959450, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1243168079 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 520095234859013603, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1243168083
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962234}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1243168084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962234}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1243168079}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962234}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1274283199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538900}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 529547954}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538900}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1292944312
 GameObject:
   m_ObjectHideFlags: 0
@@ -6858,6 +8196,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1093263a89abe47499cccf7dcb08effb, type: 3}
+--- !u!54 &1329447699
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962239}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1329447700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962239}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 276492436}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962239}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1339062312 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7614231225992287547, guid: 18470d71939382448be2ecd06efa9662, type: 3}
@@ -8011,6 +9405,67 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3683448358519186699, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1387856551 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3620647763461026099, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1387856555
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387856547}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1387856556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387856547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 1387856547}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1387856551}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1387856547}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1399264907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9384,6 +10839,67 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 438710556791472603, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1434179308 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 520095234859013603, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1434179312
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434179304}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1434179313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434179304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 1434179304}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1434179308}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1434179304}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1533960320 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1415696361206458, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
@@ -9401,6 +10917,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentObject: {fileID: 1533960320}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1533960333}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1533960320}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!54 &1533960329
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9417,6 +10961,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!82 &1533960333 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82230964513154690, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1576285670 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4866625017026841263, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
@@ -9428,6 +10977,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1708810998 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2283423397975083161, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1708811002
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538906}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1708811003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538906}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1708810998}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538906}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1713921683 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7307063430618434851, guid: 1093263a89abe47499cccf7dcb08effb, type: 3}
@@ -9623,11 +11233,194 @@ MonoBehaviour:
   proximityType: 3
   executionOrder: 0
   faceAway: 1
+--- !u!82 &1756556568 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7878444197271068688, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1756556572
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962229}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1756556573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962229}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1756556568}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962229}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &1763043902 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7479136072815002425, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1763043906
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962228}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1763043907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962228}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1763043902}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962228}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1773997769 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7985347749080052962, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1773997773 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8066092382426341594, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1773997777
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773997769}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1773997778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773997769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 1773997769}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1773997773}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1773997769}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1920672179
 GameObject:
   m_ObjectHideFlags: 0
@@ -9959,6 +11752,67 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2202676152751807649, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
   m_PrefabInstance: {fileID: 279960093}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1948108749 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2283423397975083161, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 279960093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1948108753
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948108745}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1948108754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948108745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 1948108745}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1948108749}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1948108745}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1964720610 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7614231225992287546, guid: 18470d71939382448be2ecd06efa9662, type: 3}
@@ -9978,6 +11832,102 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   avgFrameRate: 0
   display_Text: {fileID: 303758516}
+--- !u!114 &1977200130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962233}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 33675360}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962233}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!54 &2023235753
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962238}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &2023235754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962238}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 327834868}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962238}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2059559746
 GameObject:
   m_ObjectHideFlags: 0
@@ -10300,3 +12250,221 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!82 &2098062217 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4930883351300376085, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 765538894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2098062221
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538898}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &2098062222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538898}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2098062217}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538898}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &2107918524 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8166126010500086798, guid: ffbe4bef620a0a542bb77fe2f765c905, type: 3}
+  m_PrefabInstance: {fileID: 951962226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2107918528
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962232}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &2107918529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962232}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2107918524}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962232}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!54 &2113580268
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962237}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &2113580269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951962237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 951962237}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 524659831}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 951962237}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2142973944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765538896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f9619d79b1841a968e939d32b4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObject: {fileID: 765538896}
+  buttonTouched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 238384796}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1727236851}
+        m_TargetAssemblyTypeName: ClickSong, Assembly-CSharp
+        m_MethodName: ClickKey
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765538896}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
