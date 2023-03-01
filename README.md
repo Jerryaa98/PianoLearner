@@ -31,6 +31,10 @@ the scene at that time:-
 didnt work, had exams period and left the country for a bit.
 
 #### week 11:-
-researched how collisions are made, managed to do collisions between 2 gameobjects and print it, modified it for finger tip collision,  then applied it to the piano that way we can play it using all fingers and not just the index which was the interactable.
+researched how collisions are made, managed to do collisions between 2 gameobjects and print it.
+![example.jpg](pics/example.jpg)
+modified it for finger tip collision.
+![collisionwithfingers.jpg](pics/collisionwithfingers.jpg)
+then applied it to the piano that way we can play it using all fingers and not just the index which was the interactable.
 ![com.DefaultCompany.Myproject-20230228-173218.jpg](pics/com.DefaultCompany.Myproject-20230228-173218.jpg)
 ![com.DefaultCompany.Myproject-20230228-163139.jpg](pics/com.DefaultCompany.Myproject-20230228-163139.jpg)
