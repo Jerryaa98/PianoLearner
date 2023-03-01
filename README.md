@@ -24,6 +24,7 @@ fixed the black key issue, it turns out the black keys in unity were made using 
 added color functionalities.
 
 the scene at that time:-
+![com.Microsoft.MRTK3Sample-20230228-162805.jpg](pics/com.Microsoft.MRTK3Sample-20230228-162805.jpg)
 
 
 #### week 8-10:-
@@ -31,3 +32,5 @@ didnt work, had exams period and left the country for a bit.
 
 #### week 11:-
 researched how collisions are made, managed to do collisions between 2 gameobjects and print it, modified it for finger tip collision,  then applied it to the piano that way we can play it using all fingers and not just the index which was the interactable.
+![com.DefaultCompany.Myproject-20230228-173218.jpg](pics/com.DefaultCompany.Myproject-20230228-173218.jpg)
+![com.DefaultCompany.Myproject-20230228-163139.jpg](pics/com.DefaultCompany.Myproject-20230228-163139.jpg)
