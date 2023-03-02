@@ -33,6 +33,8 @@ whenever we click the necessary key, it cahnges to the next key.
 
 I added multi notes capabilities, now I can also add more than 1 note at a time, like chords and stuff in the song file.
 
+added a song speed slider such that the linear interpolations will be faster or slower.
+
 fixed a couple of exceptions.
 
 
@@ -48,5 +50,8 @@ modified it for finger tip collision.
 ![collisionwithfingers.jpg](pics/collisionwithfingers.jpg)
 
 then applied it to the piano that way we can play it using all fingers and not just the index which was the interactable.
+
 ![com.DefaultCompany.Myproject-20230228-173218.jpg](pics/com.DefaultCompany.Myproject-20230228-173218.jpg)
 ![com.DefaultCompany.Myproject-20230228-163139.jpg](pics/com.DefaultCompany.Myproject-20230228-163139.jpg)
+
+added a handle bar to move the piano more freely because I made the box colliders of the key smaller.
