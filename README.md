@@ -2,6 +2,8 @@
 
 the project was built using MRTK 2.8 and unity, scripts are done using C#.
 
+Demo: https://www.youtube.com/watch?v=bXe8Pc2Vq2U&ab_channel=TheJojitto95
+
 #### week 1 to week 3 :-
 pitching in ideas until we reached the piano learning in VR.
 
