@@ -4,6 +4,7 @@ the project was built using MRTK 2.8 and unity, scripts are done using C#.
 
 Demo: https://www.youtube.com/watch?v=bXe8Pc2Vq2U&ab_channel=TheJojitto95
 
+Jerry's Progress:-
 #### week 1 to week 3 :-
 pitching in ideas until we reached the piano learning in VR.
 
@@ -58,6 +59,7 @@ then applied it to the piano that way we can play it using all fingers and not j
 
 added a handle bar to move the piano more freely because I made the box colliders of the key smaller.
 
+Lama's Progress:-
 
 week 4-5:
 
@@ -72,7 +74,3 @@ most of the songs are hard to play,
 week 8-9 :
 
 I fixed the timing of the songs, it was so slow, and added new menu for the chords and progression, I dont have a music background so it took a while, to get how it works.
-
-
-
-
