@@ -57,3 +57,22 @@ then applied it to the piano that way we can play it using all fingers and not j
 ![com.DefaultCompany.Myproject-20230228-163139.jpg](pics/com.DefaultCompany.Myproject-20230228-163139.jpg)
 
 added a handle bar to move the piano more freely because I made the box colliders of the key smaller.
+
+
+week 4-5:
+
+At first I added the floor and the background, it took some time because there is many ways to do it,
+and each one had a way of view so it took some time to figure which one is the right one to our project.
+
+week 6-7 :
+
+I looked for some appropriate songs, an easy one that could teach begginers how to play on the piano, it took some time, due to that
+most of the songs are hard to play, 
+
+week 8-9 :
+
+I fixed the timing of the songs, it was so slow, and added new menu for the chords and progression, I dont have a music background so it took a while, to get how it works.
+
+
+
+
