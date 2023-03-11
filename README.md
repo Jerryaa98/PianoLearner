@@ -18,11 +18,11 @@ worked out great, did more research on MRTK.
 #### week 6-7:-
 built the piano and started messing around with the scripts and learning a bit of C# with unity functionalities.
 
-had some git trouble, something called artifact DB and cache stuff was really making git pushing take very long, soleved it by updating the gitignore (found something online for unity).
+had some git trouble, something called artifact DB and cache stuff was really making git pushing take very long, solved it by updating the gitignore (found something online for unity).
 
 had problems with coloring the black keys.
 
-after our meeting, I changed the piano functionalities to chaging the key from time to actually clicking it, so instead of learning the song via time we learn it via actually pressing the piano keys.
+after our meeting, I changed the piano functionalities to changing the key from time to actually clicking it, so instead of learning the song via time we learn it via actually pressing the piano keys.
 updated the script to add midi cubes based on the song files, it calculates the length based on the note length, makes a list of the notes, then destroys them when the note is clicked, they fall down using linear interpolation and made them stop halfway if the necessary key for the cube has not been clicked, and added some songs to test it out on menus using the built in MRTK prefabs, added floor and background as well.
 fixed the black key issue, it turns out the black keys in MRTK were made using the transparent background and not a black material, solved it by assigning it a different material then chaging the materials color. (apparently they did that for less processing power)
 added color functionalities and themes like when the hand is near a button or a ray is cast it changes the color of the key.
