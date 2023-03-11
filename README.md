@@ -31,7 +31,9 @@ the scene at that time:-
 ![com.Microsoft.MRTK3Sample-20230228-162805.jpg](pics/com.Microsoft.MRTK3Sample-20230228-162805.jpg)
 
 script functionalitites:-
-whenever we click the necessary key, it cahnges to the next key.
+
+whenever we click the necessary key, it changes to the next key.
+
 ![pianokeypress](pics/pianokeypress.gif)
 
 I added multi notes capabilities, now I can also add more than 1 note at a time, like chords and stuff in the song file.
