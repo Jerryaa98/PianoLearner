@@ -4,6 +4,7 @@ the project was built using MRTK 2.8 and unity, scripts are done using C#.
 
 Demo: https://www.youtube.com/watch?v=bXe8Pc2Vq2U&ab_channel=TheJojitto95
 
+Jerry's Progress:-
 #### week 1 to week 3 :-
 pitching in ideas until we reached the piano learning in VR.
 
@@ -57,3 +58,6 @@ then applied it to the piano that way we can play it using all fingers and not j
 ![com.DefaultCompany.Myproject-20230228-163139.jpg](pics/com.DefaultCompany.Myproject-20230228-163139.jpg)
 
 added a handle bar to move the piano more freely because I made the box colliders of the key smaller.
+
+Lama's Progress:-
+
